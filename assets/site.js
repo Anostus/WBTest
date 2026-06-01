@@ -383,6 +383,7 @@
 
     var roleData = {
       'apex-solo': { label:'Apex solo', dungeon:'1', wild:'1', lair:'1d3', note:'Use 1 for named or unique creatures; the lair result can represent mate, young, lieutenant, or thrall.' },
+      'rare': { label:'Rare', dungeon:'1d2', wild:'1d2', lair:'1d2', note:'Use for scarce outsiders, envoys, summons, planar visitors, tempters, or one-off local appearances; add cultists, guards, servants, or summoned allies separately.' },
       'huge-brute': { label:'Huge brute', dungeon:'1d2', wild:'1d4', lair:'1d4+1', note:'If truly solitary, use the Solitary tag instead of the full lair value.' },
       'dangerous-pack': { label:'Dangerous pack', dungeon:'1d4', wild:'1d6', lair:'Wild', note:'For true pack hunters, the Pack dial bumps Wild and Lair one die step.' },
       'ordinary-predator': { label:'Ordinary beast (predator)', dungeon:'1d4', wild:'1d6', lair:'Wild', note:'Use Solitary for ambush or lone animals; true pack hunters may be Dangerous pack instead.' },
@@ -490,7 +491,14 @@
     function formulaFromSelections(){
       var roleKey = roleSelect ? roleSelect.value : 'apex-solo';
       var useFallback = roleKey === 'no-role';
-      var base = useFallback ? fallbackData[threatSelect ? threatSelect.value : 'trivial'] : roleData[roleKey];
+      var fallbackKey = threatSelect ? threatSelect.value : 'trivial';
+      var base = useFallback ? fallbackData[fallbackKey] : roleData[roleKey];
+      var usedUnknownRole = false;
+      if(!base){
+        usedUnknownRole = true;
+        useFallback = true;
+        base = fallbackData[fallbackKey] || fallbackData.common;
+      }
       var tag = tagSelect ? tagSelect.value : 'role-default';
       var dial = dialSelect ? dialSelect.value : 'none';
       var lairScale = lairScaleSelect ? lairScaleSelect.value : 'normal';
@@ -500,7 +508,7 @@
         lair: resolveWild(base.lair, base.wild),
         notes: []
       };
-      addNote(result.notes, (useFallback ? 'Using No Role fallback: ' + base.label + '.' : 'Using role: ' + base.label + '.'));
+      addNote(result.notes, usedUnknownRole ? 'Unknown role; using fallback: ' + base.label + '.' : (useFallback ? 'Using No Role fallback: ' + base.label + '.' : 'Using role: ' + base.label + '.'));
       addNote(result.notes, base.note);
 
       if(tag === 'solitary'){
@@ -542,11 +550,6 @@
         result.wild = warbandExpr(result.wild);
         result.lair = warbandExpr(result.lair);
         addNote(result.notes, 'Warband does not change Dungeon. For Wild and Lair, add half the number of dice to an XdY roll, rounded down, minimum +1 die.');
-      } else if(dial === 'rare'){
-        result.dungeon = '1 or 1d2';
-        result.wild = '1 or 1d2';
-        result.lair = '1 or 1d2';
-        addNote(result.notes, 'Rare overrides the table: use 1 or 1d2 by referee choice.');
       }
       return result;
     }

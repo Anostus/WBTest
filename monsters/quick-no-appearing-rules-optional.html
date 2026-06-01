@@ -16,7 +16,7 @@
 <div class="breadcrumbs"><a href="../index.html">Home</a> &gt; <a href="index.html">Monster Index</a> &gt; <a href="expanded-monster-encounter-tables.html">Expanded Monster Encounter Tables</a> &gt; Quick No. Appearing Rules (Optional)</div>
 <article>
 <h1 id="quick-no-appearing-rules">Quick No. Appearing Rules <span class="subtitle-inline">(Optional)</span></h1>
-<p class="notice">White Box lacks the "No. Appearing" line for its monster stat blocks that many OSR games have. This page exists to provide a simple framework for determinig how many monsters are encountered in a dungeon, in the wild, or in their own lair when planning out adventures or stocking dungeons. They are ecology-first guidelines: use the creature's role, terrain, and social habits before worrying about combat math.</p>
+<p class="notice">White Box lacks the "No. Appearing" line for its monster stat blocks that many OSR games have. This page exists to provide a simple framework for determining how many monsters are encountered in a dungeon, in the wild, or in their own lair when planning out adventures or stocking dungeons. They are ecology-first guidelines: use the creature's role, terrain, and social habits before worrying about combat math.</p>
 <h2 id="use-in-20-seconds">How to Determine Number Appearing</h2>
 <ol>
 <li>Pick the creature's <strong>role</strong> from the Quick No. Appearing Table table. If you are uncertain about a creature's role, or would prefer to use hit dice as a baseline instead of role, use the Fallback by Threat or HD table.</li>
@@ -29,7 +29,6 @@
 <div class="card"><h3>Dungeon</h3><p>Room, corridor, patrol, tomb, cave, ruin, or immediate encounter.</p></div>
 <div class="card"><h3>Wild</h3><p>Travel or scouting encounter in the wider territory; usually only a little bigger than Dungeon.</p></div>
 <div class="card"><h3>Lair</h3><p>Den, camp, hive, village, crypt, or home base. Count combat-capable creatures unless you want dependents too.</p></div>
-</div>
 </div>
 </section>
 <p class="notice"><strong>Core lair rule:</strong> <strong>Lair = Wild</strong> unless the creature is <strong>Social</strong>, <strong>Colony</strong>, <strong>Herd</strong>, or <strong>Placed</strong>. This keeps solitary beasts from getting huge lairs while still allowing camps, nests, hives, and herds.</p>
@@ -78,7 +77,7 @@
 </dl>
 </section>
 <section class="formatted-table">
-<h2 id="context-and-light-dials">Additional Dials</h2>
+<h2 id="additional-dials">Additional Dials</h2>
 <div class="item-grid cards-grid">
 <div class="card"><h3>Pack</h3><p>Increase the die by one step.</p></div>
 <div class="card"><h3>Warband</h3><p>For Wild and Lair only, add half the number of dice to an XdY roll, rounded down, minimum +1 die. For example, 2d4 becomes 3d4, and 5d6 becomes 7d6.</p></div>
@@ -168,62 +167,6 @@
 </main>
 </div>
 <script src="../assets/site.js"></script>
-<script>
-(function () {
-  var rareNote = 'Rare role: 1d2 in dungeon, wild, and lair. Use for scarce outsiders, envoys, summons, planar visitors, tempters, or one-off local appearances; add cultists, guards, servants, or summoned allies separately.';
 
-  function byId(id) {
-    return document.getElementById(id);
-  }
-
-  function isRareRole() {
-    var role = byId('noapp-role');
-    return role && role.value === 'rare';
-  }
-
-  function setRareOutput() {
-    if (!isRareRole()) return;
-    ['dungeon', 'wild', 'lair'].forEach(function (context) {
-      var cell = byId('noapp-' + context);
-      if (cell) cell.textContent = '1d2';
-    });
-    var copyLine = byId('noapp-copy-line');
-    if (copyLine) copyLine.textContent = 'No. Appearing: Dungeon 1d2; Wild 1d2; Lair 1d2';
-    var notes = byId('noapp-notes');
-    if (notes) notes.textContent = rareNote;
-  }
-
-  function rollRare(context) {
-    var output = byId('noapp-' + context + '-roll');
-    if (output) output.textContent = String(Math.floor(Math.random() * 2) + 1);
-  }
-
-  document.addEventListener('change', function () {
-    window.setTimeout(setRareOutput, 0);
-  });
-
-  document.addEventListener('input', function () {
-    window.setTimeout(setRareOutput, 0);
-  });
-
-  document.addEventListener('click', function (event) {
-    window.setTimeout(function () {
-      if (!isRareRole()) return;
-      var button = event.target.closest ? event.target.closest('[data-noapp-roll]') : null;
-      if (button) {
-        rollRare(button.getAttribute('data-noapp-roll'));
-      } else {
-        setRareOutput();
-      }
-    }, 0);
-  });
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setRareOutput);
-  } else {
-    setRareOutput();
-  }
-})();
-</script>
 </body>
 </html>
