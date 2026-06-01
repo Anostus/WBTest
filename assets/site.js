@@ -354,9 +354,6 @@
     var roleSelect = document.getElementById('noapp-role');
     var threatSelect = document.getElementById('noapp-threat');
     var fallbackControl = noappRoot.querySelector('.noapp-fallback-control');
-    var tagSelect = document.getElementById('noapp-tag');
-    var dialSelect = document.getElementById('noapp-dial');
-    var lairScaleSelect = document.getElementById('noapp-lair-scale');
     var outputCells = {
       dungeon: document.getElementById('noapp-dungeon'),
       wild: document.getElementById('noapp-wild'),
@@ -382,23 +379,26 @@
     }
 
     var roleData = {
-      'apex-solo': { label:'Apex solo', dungeon:'1', wild:'1', lair:'1d3', note:'Use 1 for named or unique creatures; the lair result can represent mate, young, lieutenant, or thrall.' },
-      'rare': { label:'Rare', dungeon:'1d2', wild:'1d2', lair:'1d2', note:'Use for scarce outsiders, envoys, summons, planar visitors, tempters, or one-off local appearances; add cultists, guards, servants, or summoned allies separately.' },
-      'huge-brute': { label:'Huge brute', dungeon:'1d2', wild:'1d4', lair:'1d4+1', note:'If truly solitary, use the Solitary tag instead of the full lair value.' },
-      'dangerous-pack': { label:'Dangerous pack', dungeon:'1d4', wild:'1d6', lair:'Wild', note:'For true pack hunters, the Pack dial bumps Wild and Lair one die step.' },
-      'ordinary-predator': { label:'Ordinary beast (predator)', dungeon:'1d4', wild:'1d6', lair:'Wild', note:'Use Solitary for ambush or lone animals; true pack hunters may be Dangerous pack instead.' },
-      'ordinary-prey': { label:'Ordinary beast (prey)', dungeon:'1d6', wild:'3d10', lair:'3d10', note:'Use Herd for grazing, flocking, or schooling animals; use Immense herd only for migrations or huge masses.' },
-      'communal-humanoid': { label:'Communal humanoid', dungeon:'2d4', wild:'3d6', lair:'5d6', note:'Add 1 leader/champion per 10 and 1 caster/shaman per 20 if appropriate.' },
-      'small-nuisances': { label:'Small nuisances', dungeon:'2d6', wild:'3d6', lair:'5d6', note:'Use Colony for hives, colonies, nests, roosts, or vermin warrens.' },
-      'trap-monster': { label:'Trap monster', dungeon:'1', wild:'—', lair:'1d3', note:'Usually Placed, bound, territorial, or room-specific rather than wandering.' }
+      'unique-solo': { label:'Unique / true solo', dungeon:'1', wild:'1', lair:'1', note:'Use for named singulars and monsters that should appear alone unless you intentionally add allies, servants, young, or lieutenants.' },
+      'rare-site-bound': { label:'Rare / site-bound', dungeon:'1', wild:'1', lair:'1d3', note:'Use for scarce outsiders, summons, constructed guardians, oozes, animated objects, guardian plants, and other room-specific or one-off local appearances.' },
+      'huge-lone-brute': { label:'Huge lone brute', dungeon:'1', wild:'1d2', lair:'1d2', note:'Use when the creature is massive but usually encountered alone or with only one close companion.' },
+      'huge-family-pair': { label:'Huge family / pair', dungeon:'1d2', wild:'1d4', lair:'1d4+1', note:'Use for huge creatures that plausibly gather in pairs, families, or tiny bands.' },
+      'lone-predator': { label:'Lone predator', dungeon:'1d2', wild:'1d3', lair:'1d3', note:'Use for predators and dangerous roamers that hunt or haunt alone.' },
+      'group-predator': { label:'Group predator', dungeon:'1d4', wild:'1d6', lair:'1d6', note:'Use for ordinary dangerous creatures that appear in small groups but are not true pack hunters.' },
+      'pack-hunter': { label:'Pack hunter', dungeon:'1d4', wild:'1d8', lair:'1d8', note:'Use for creatures whose threat comes from coordinated pack behavior.' },
+      'herd-flock-school': { label:'Herd / flock / school', dungeon:'1d6', wild:'3d10', lair:'3d10', note:'Use for ordinary animals that gather in herds, flocks, or schools; set a larger number by referee judgment for immense migrations or masses.' },
+      'communal-folk': { label:'Communal folk', dungeon:'2d4', wild:'3d6', lair:'5d6', note:'Add about 1 leader or champion per 10, and 1 caster, shaman, or specialist per 20 if appropriate.' },
+      'warband': { label:'Warband', dungeon:'2d4', wild:'4d6', lair:'7d6', note:'Use when a humanoid group is encountered as an organized fighting force rather than ordinary locals.' },
+      'small-social-nuisances': { label:'Small social nuisances', dungeon:'2d6', wild:'3d6', lair:'5d6', note:'Use for small creatures that gather socially but are not a true hive or colony.' },
+      'colony-hive-nest': { label:'Colony / hive / nest', dungeon:'2d6', wild:'3d6', lair:'5d10', note:'Use when the lair itself is a massed nest, hive, colony, warren, or roost.' }
     };
     var fallbackData = {
-      trivial: { label:'Trivial / 0–½ HD', dungeon:'2d6', wild:'3d6', lair:'5d6', note:'Fallback table: use large Lair numbers only for Social or Colony creatures; otherwise Lair = Wild.' },
-      common: { label:'Common / 1–2 HD', dungeon:'1d6+1', wild:'2d6', lair:'4d6', note:'Fallback table: use large Lair numbers only for Social or Colony creatures; otherwise Lair = Wild.' },
-      tough: { label:'Tough / 3–4 HD', dungeon:'1d4+1', wild:'1d6', lair:'1d6+1', note:'Fallback table: prefer the role table when ecology is obvious.' },
-      strong: { label:'Strong / 5–6 HD', dungeon:'1d4', wild:'1d4+1', lair:'1d4+1', note:'Fallback table: prefer the role table when ecology is obvious.' },
-      major: { label:'Major / 7–9 HD', dungeon:'1d2', wild:'1d4', lair:'1d4', note:'Fallback table: prefer the role table when ecology is obvious.' },
-      apex: { label:'Apex / 10+ HD', dungeon:'1', wild:'1d3', lair:'1d3', note:'Fallback table: prefer the role table when ecology is obvious.' }
+      trivial: { label:'Trivial / 0–½ HD', dungeon:'2d6', wild:'3d6', lair:'5d6', note:'Fallback table: use as a blunt baseline only; switch to an encounter pattern when ecology is clear.' },
+      common: { label:'Common / 1–2 HD', dungeon:'1d6+1', wild:'2d6', lair:'4d6', note:'Fallback table: use as a blunt baseline only; switch to an encounter pattern when ecology is clear.' },
+      tough: { label:'Tough / 3–4 HD', dungeon:'1d4+1', wild:'1d6', lair:'1d6+1', note:'Fallback table: prefer an encounter pattern when ecology is obvious.' },
+      strong: { label:'Strong / 5–6 HD', dungeon:'1d4', wild:'1d4+1', lair:'1d4+1', note:'Fallback table: prefer an encounter pattern when ecology is obvious.' },
+      major: { label:'Major / 7–9 HD', dungeon:'1d2', wild:'1d4', lair:'1d4', note:'Fallback table: prefer an encounter pattern when ecology is obvious.' },
+      apex: { label:'Apex / 10+ HD', dungeon:'1', wild:'1d3', lair:'1d3', note:'Fallback table: prefer an encounter pattern when ecology is obvious.' }
     };
 
     function selectHasValue(select, value){
@@ -415,6 +415,23 @@
       }
       return value || '';
     }
+    function legacyPatternForPreset(preset){
+      if(!preset || !preset.role) return 'unique-solo';
+      if(preset.role === 'apex-solo') return 'unique-solo';
+      if(preset.role === 'rare') return 'rare-site-bound';
+      if(preset.role === 'huge-brute') return preset.tag === 'solitary' ? 'huge-lone-brute' : 'huge-family-pair';
+      if(preset.role === 'dangerous-pack'){
+        if(preset.tag === 'solitary') return 'lone-predator';
+        if(preset.dial === 'pack' || preset.dial === 'warband') return 'pack-hunter';
+        return 'group-predator';
+      }
+      if(preset.role === 'ordinary-predator') return preset.tag === 'solitary' ? 'lone-predator' : 'group-predator';
+      if(preset.role === 'ordinary-prey') return 'herd-flock-school';
+      if(preset.role === 'communal-humanoid') return preset.dial === 'warband' ? 'warband' : 'communal-folk';
+      if(preset.role === 'small-nuisances') return preset.tag === 'colony' ? 'colony-hive-nest' : 'small-social-nuisances';
+      return 'no-role';
+    }
+    function presetPattern(preset){ return preset ? (preset.pattern || legacyPatternForPreset(preset)) : 'unique-solo'; }
     function populatePresetList(){
       presetMap = {};
       if(presetList){
@@ -434,13 +451,11 @@
       });
     }
     function describePreset(preset){
-      if(!preset) return 'Preset: None. Type a monster name to populate Role, Tag, Context Dial, and Lair Special automatically.';
+      if(!preset) return 'Preset: None. Type a monster name to populate Encounter Pattern automatically.';
+      var pattern = presetPattern(preset);
       var parts = ['Preset applied: ' + preset.name];
-      parts.push('Role ' + labelForSelect(roleSelect, preset.role));
-      if(preset.role === 'no-role') parts.push('Fallback ' + labelForSelect(threatSelect, preset.threat));
-      parts.push('Tag ' + labelForSelect(tagSelect, preset.tag));
-      parts.push('Context ' + labelForSelect(dialSelect, preset.dial));
-      parts.push('Lair special ' + labelForSelect(lairScaleSelect, preset.lairScale));
+      parts.push('Pattern ' + labelForSelect(roleSelect, pattern));
+      if(pattern === 'no-role') parts.push('Fallback ' + labelForSelect(threatSelect, preset.threat));
       return parts.join(' · ') + '.';
     }
     function applyPreset(name){
@@ -456,42 +471,18 @@
         if(presetSummary) presetSummary.textContent = 'Type to search, then choose an exact monster preset from the list.';
         return;
       }
-      setSelectValue(roleSelect, preset.role || 'apex-solo');
+      setSelectValue(roleSelect, presetPattern(preset));
       setSelectValue(threatSelect, preset.threat || 'common');
-      setSelectValue(tagSelect, preset.tag || 'role-default');
-      setSelectValue(dialSelect, preset.dial || 'none');
-      setSelectValue(lairScaleSelect, preset.lairScale || 'normal');
       if(presetInput) presetInput.value = preset.name;
       renderNoApp();
       if(presetSummary) presetSummary.textContent = describePreset(preset);
     }
 
-    function resolveWild(expr, wild){ return expr === 'Wild' ? wild : expr; }
     function addNote(list, text){ if(text && list.indexOf(text) === -1) list.push(text); }
-    function bumpDieStep(expr){
-      if(!expr || expr === '—') return expr;
-      return expr.replace(/(\d*)d(4|6|8)(?!\d)/, function(match, qty, sides){
-        var next = sides === '4' ? '6' : sides === '6' ? '8' : '10';
-        return (qty || '1') + 'd' + next;
-      });
-    }
-    function halveExpr(expr){
-      if(!expr || expr === '—') return expr;
-      if(expr === '1') return '1';
-      return expr + ', halved (min. 1)';
-    }
-    function warbandExpr(expr){
-      if(!expr || expr === '—') return expr;
-      return expr.replace(/(\d*)d(\d+)(?!\d)/, function(match, qty, sides){
-        var count = parseInt(qty || '1', 10);
-        var added = Math.max(1, Math.floor(count / 2));
-        return String(count + added) + 'd' + sides;
-      });
-    }
     function formulaFromSelections(){
-      var roleKey = roleSelect ? roleSelect.value : 'apex-solo';
+      var roleKey = roleSelect ? roleSelect.value : 'unique-solo';
       var useFallback = roleKey === 'no-role';
-      var fallbackKey = threatSelect ? threatSelect.value : 'trivial';
+      var fallbackKey = threatSelect ? threatSelect.value : 'common';
       var base = useFallback ? fallbackData[fallbackKey] : roleData[roleKey];
       var usedUnknownRole = false;
       if(!base){
@@ -499,58 +490,9 @@
         useFallback = true;
         base = fallbackData[fallbackKey] || fallbackData.common;
       }
-      var tag = tagSelect ? tagSelect.value : 'role-default';
-      var dial = dialSelect ? dialSelect.value : 'none';
-      var lairScale = lairScaleSelect ? lairScaleSelect.value : 'normal';
-      var result = {
-        dungeon: base.dungeon,
-        wild: base.wild,
-        lair: resolveWild(base.lair, base.wild),
-        notes: []
-      };
-      addNote(result.notes, usedUnknownRole ? 'Unknown role; using fallback: ' + base.label + '.' : (useFallback ? 'Using No Role fallback: ' + base.label + '.' : 'Using role: ' + base.label + '.'));
+      var result = { dungeon: base.dungeon, wild: base.wild, lair: base.lair, notes: [] };
+      addNote(result.notes, usedUnknownRole ? 'Unknown pattern; using fallback: ' + base.label + '.' : (useFallback ? 'Using fallback: ' + base.label + '.' : 'Using pattern: ' + base.label + '.'));
       addNote(result.notes, base.note);
-
-      if(tag === 'solitary'){
-        result.dungeon = halveExpr(result.dungeon);
-        result.wild = halveExpr(result.wild);
-        result.lair = result.wild;
-        addNote(result.notes, 'Solitary halves the result, minimum 1; Lair uses the Wild value after halving.');
-      } else if(tag === 'social'){
-        result.lair = resolveWild(base.lair, base.wild);
-        addNote(result.notes, 'Social uses the printed Lair value; add leaders or specialists when appropriate.');
-      } else if(tag === 'colony'){
-        result.lair = '5d10';
-        addNote(result.notes, 'Colony uses 5d10 in the lair for hives, nests, rookeries, or vermin warrens.');
-      } else if(tag === 'herd'){
-        result.lair = lairScale === 'immense-herd' ? '10d10' : '3d10';
-        addNote(result.notes, lairScale === 'immense-herd' ? 'Immense herd/migration uses 10d10 for Lair.' : 'Herd uses 3d10 for ordinary herd, flock, or school lair counts.');
-      } else if(tag === 'placed'){
-        result.dungeon = '1';
-        result.wild = '—';
-        result.lair = lairScale === 'several-placed' ? '1d3' : '1';
-        addNote(result.notes, lairScale === 'several-placed' ? 'Placed site with several guardians uses 1d3 for Lair.' : 'Placed uses 1 unless the site clearly has several guardians.');
-      } else {
-        addNote(result.notes, 'Role default uses the table values as written. To enforce the core lair rule, choose Solitary, Social, Colony, Herd, or Placed.');
-      }
-
-      if(lairScale === 'immense-herd' && tag !== 'herd'){
-        result.lair = '10d10';
-        addNote(result.notes, 'Lair special overrides Lair to 10d10 for an immense herd, migration, or mass.');
-      }
-      if(lairScale === 'several-placed' && tag !== 'placed'){
-        addNote(result.notes, 'Several placed guardians only changes the Lair value when the Placed tag is selected.');
-      }
-
-      if(dial === 'pack'){
-        result.wild = bumpDieStep(result.wild);
-        result.lair = bumpDieStep(result.lair);
-        addNote(result.notes, 'Pack bumps Wild and Lair one die step where the formula has a bumpable die.');
-      } else if(dial === 'warband'){
-        result.wild = warbandExpr(result.wild);
-        result.lair = warbandExpr(result.lair);
-        addNote(result.notes, 'Warband does not change Dungeon. For Wild and Lair, add half the number of dice to an XdY roll, rounded down, minimum +1 die.');
-      }
       return result;
     }
 
@@ -569,7 +511,6 @@
     function rollFormulaText(expr){
       if(!expr || expr === '—') return 'No ordinary roll';
       if(expr.indexOf('1 or 1d2') !== -1) return 'Referee choice: 1 or 1d2';
-      var halved = expr.indexOf('halved') !== -1;
       var match = expr.match(/(\d*)d(\d+)(?:\s*([+\-])\s*(\d+))?/);
       var total = 0, detail = '';
       if(match){
@@ -585,7 +526,6 @@
       } else {
         return 'Cannot auto-roll this formula';
       }
-      if(halved) total = Math.max(1, Math.floor(total / 2));
       return String(total) + detail;
     }
 
@@ -595,14 +535,14 @@
       presetInput.addEventListener('input', function(){
         var value = (presetInput.value || '').trim();
         if(value === 'None' || presetMap[value]) applyPreset(value);
-        else if(presetSummary) presetSummary.textContent = value ? 'Type to search, then choose an exact monster preset from the list.' : 'Preset: None. Type a monster name to populate the controls.';
+        else if(presetSummary) presetSummary.textContent = value ? 'Type to search, then choose an exact monster preset from the list.' : 'Preset: None. Type a monster name to populate Encounter Pattern automatically.';
       });
     }
     if(presetClear){
       presetClear.addEventListener('click', function(){ applyPreset('None'); });
     }
 
-    [roleSelect, threatSelect, tagSelect, dialSelect, lairScaleSelect].forEach(function(control){
+    [roleSelect, threatSelect].forEach(function(control){
       if(control) control.addEventListener('change', function(){
         renderNoApp();
         if(presetSummary && presetInput && presetInput.value && presetInput.value !== 'None') presetSummary.textContent = describePreset(presetMap[presetInput.value]) + ' Controls may be edited after applying a preset.';
@@ -628,6 +568,7 @@
     }
     renderNoApp();
   }
+
 
 
 })();
