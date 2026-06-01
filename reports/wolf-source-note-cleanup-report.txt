@@ -1,0 +1,7 @@
+Moved Source note after See Also on 0 monster pages.
+Renamed wolf-winter-worg-winter-bfomnibus.html to wolf-winter-bfomnibus.html.
+Deleted redundant wolf-winter-worg-worg-bfomnibus.html.
+Removed 1 Worg-description paragraph(s) from Wolf, Winter.
+Removed 1 deleted Worg variant entry from monster-index.json and updated Wolf, Winter.
+Removed Worg variant row from monster index HTML (regex removals 1).
+Reordered Source note after See Also on 359 pages after corrected section scan.

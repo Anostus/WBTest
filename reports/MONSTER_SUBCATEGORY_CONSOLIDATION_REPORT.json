@@ -1,0 +1,218 @@
+[
+  {
+    "subcategory": "Bear",
+    "target": "bear-basic-fantasy-rpg.html",
+    "display": "Bear",
+    "sources_consolidated": [
+      "bear-basic-fantasy-rpg.html",
+      "bear-field-guide-omnibus.html"
+    ],
+    "redirected_from": [
+      "bear-field-guide-omnibus.html"
+    ],
+    "member_count": 12,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 8,
+      "Basic Fantasy RPG": 4
+    }
+  },
+  {
+    "subcategory": "Beetle",
+    "target": "beetle-basic-fantasy-rpg.html",
+    "display": "Beetle",
+    "sources_consolidated": [
+      "beetle-basic-fantasy-rpg.html",
+      "beetle-field-guide-omnibus.html"
+    ],
+    "redirected_from": [
+      "beetle-field-guide-omnibus.html"
+    ],
+    "member_count": 7,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 4,
+      "Basic Fantasy RPG": 3
+    }
+  },
+  {
+    "subcategory": "Dinosaur",
+    "target": "dinosaur-basic-fantasy-rpg.html",
+    "display": "Dinosaur",
+    "sources_consolidated": [
+      "dinosaur-basic-fantasy-rpg.html",
+      "dinosaur-field-guide-omnibus.html"
+    ],
+    "redirected_from": [
+      "dinosaur-field-guide-omnibus.html"
+    ],
+    "member_count": 29,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 23,
+      "Basic Fantasy RPG": 6
+    }
+  },
+  {
+    "subcategory": "Dragon",
+    "target": "dragon-white-box.html",
+    "display": "Dragon (White Box)",
+    "sources_consolidated": [
+      "dragon-basic-fantasy-rpg.html",
+      "dragon-field-guide-omnibus.html",
+      "dragon-white-box.html"
+    ],
+    "redirected_from": [
+      "dragon-basic-fantasy-rpg.html",
+      "dragon-field-guide-omnibus.html"
+    ],
+    "member_count": 11,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 2,
+      "Basic Fantasy RPG": 3,
+      "White Box": 6
+    }
+  },
+  {
+    "subcategory": "Elemental",
+    "target": "elemental-white-box.html",
+    "display": "Elemental (White Box)",
+    "sources_consolidated": [
+      "elemental-basic-fantasy-rpg.html",
+      "elemental-field-guide-omnibus.html",
+      "elemental-white-box.html"
+    ],
+    "redirected_from": [
+      "elemental-basic-fantasy-rpg.html",
+      "elemental-field-guide-omnibus.html"
+    ],
+    "member_count": 19,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 3,
+      "Basic Fantasy RPG": 12,
+      "White Box": 4
+    }
+  },
+  {
+    "subcategory": "Fish",
+    "target": "fish-basic-fantasy-rpg.html",
+    "display": "Fish",
+    "sources_consolidated": [
+      "fish-basic-fantasy-rpg.html",
+      "fish-field-guide-omnibus.html"
+    ],
+    "redirected_from": [
+      "fish-field-guide-omnibus.html"
+    ],
+    "member_count": 11,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 6,
+      "Basic Fantasy RPG": 5
+    }
+  },
+  {
+    "subcategory": "Giant",
+    "target": "giant-white-box.html",
+    "display": "Giant (White Box)",
+    "sources_consolidated": [
+      "giant-basic-fantasy-rpg.html",
+      "giant-field-guide-omnibus.html",
+      "giant-white-box.html"
+    ],
+    "redirected_from": [
+      "giant-basic-fantasy-rpg.html",
+      "giant-field-guide-omnibus.html"
+    ],
+    "member_count": 13,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 4,
+      "Basic Fantasy RPG": 2,
+      "White Box": 7
+    }
+  },
+  {
+    "subcategory": "Golem",
+    "target": "golem-white-box.html",
+    "display": "Golem (White Box)",
+    "sources_consolidated": [
+      "golem-basic-fantasy-rpg.html",
+      "golem-field-guide-omnibus.html",
+      "golem-white-box.html"
+    ],
+    "redirected_from": [
+      "golem-basic-fantasy-rpg.html",
+      "golem-field-guide-omnibus.html"
+    ],
+    "member_count": 20,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 11,
+      "Basic Fantasy RPG": 4,
+      "White Box": 5
+    }
+  },
+  {
+    "subcategory": "Lizard",
+    "target": "lizard-basic-fantasy-rpg.html",
+    "display": "Lizard",
+    "sources_consolidated": [
+      "lizard-basic-fantasy-rpg.html",
+      "lizard-field-guide-omnibus.html"
+    ],
+    "redirected_from": [
+      "lizard-field-guide-omnibus.html"
+    ],
+    "member_count": 11,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 4,
+      "Basic Fantasy RPG": 7
+    }
+  },
+  {
+    "subcategory": "Lycanthrope",
+    "target": "lycanthrope-white-box.html",
+    "display": "Lycanthrope (White Box)",
+    "sources_consolidated": [
+      "lycanthrope-basic-fantasy-rpg.html",
+      "lycanthrope-white-box.html"
+    ],
+    "redirected_from": [
+      "lycanthrope-basic-fantasy-rpg.html"
+    ],
+    "member_count": 5,
+    "members_by_source": {
+      "Basic Fantasy RPG": 2,
+      "White Box": 3
+    }
+  },
+  {
+    "subcategory": "Snake",
+    "target": "snake-basic-fantasy-rpg.html",
+    "display": "Snake",
+    "sources_consolidated": [
+      "snake-basic-fantasy-rpg.html",
+      "snake-field-guide-omnibus.html"
+    ],
+    "redirected_from": [
+      "snake-field-guide-omnibus.html"
+    ],
+    "member_count": 13,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 8,
+      "Basic Fantasy RPG": 5
+    }
+  },
+  {
+    "subcategory": "Spider",
+    "target": "spider-basic-fantasy-rpg.html",
+    "display": "Spider",
+    "sources_consolidated": [
+      "spider-basic-fantasy-rpg.html",
+      "spider-field-guide-omnibus.html"
+    ],
+    "redirected_from": [
+      "spider-field-guide-omnibus.html"
+    ],
+    "member_count": 14,
+    "members_by_source": {
+      "Basic Fantasy Field Guide Omnibus": 11,
+      "Basic Fantasy RPG": 3
+    }
+  }
+]

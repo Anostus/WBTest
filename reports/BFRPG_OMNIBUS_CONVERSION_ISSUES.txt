@@ -1,0 +1,708 @@
+Basic Fantasy Field Guide Omnibus to White Box conversion notes
+
+Converted Field Guide entries added: 672.
+Source: The Basic Fantasy Field Guide of Creatures Malevolent and Benign – Omnibus Edition, 1st Edition Release 4, © 2010–2025 Chris Gonnerman, R. Kevin Smoot, James Lemon, Matt Sluis, and Contributors. Textual material is Creative Commons Attribution-ShareAlike 4.0 International licensed.
+
+General conversion rules applied:
+- White Box ascending AC = BFRPG AC - 1. Where this site displays dual AC, the converted format is descending [ascending].
+- Hit Dice were preserved. Each BFRPG asterisk adds one HDE step. Fractional HD plus asterisks were rounded up for HDE.
+- Multiple attacks were compressed into a single White Box-style attack. Most ordinary multiattacks became a single 1d6-range attack, while especially large or high-damage attacks were retained as larger Xd6 attacks.
+- Multi-column Field Guide entries and table variants were split into individual monster pages where the PDF presented distinct stat columns.
+- Converted creatures are marked with a dagger (†) in indexes and tables. Their actual pages contain the Creative Commons source note.
+
+Problems or judgment-call entries:
+- Axolotl, Giant: the PDF text layer omits the title at a page break; I recovered the stat block manually from the page and noted this in parsing notes.
+- Grave Dancer: BFRPG lists Hit Dice as Special because it cannot be damaged normally; I preserved Special HD and assigned White Box HDE 8 based on its Fighter 8 save, vampire-level Turning benchmark, and strong undead aura.
+- Variable-HD creatures such as Ankheg, Boglin, Mushroom Men, Naga, Paper Tiger, Piercer, Remorhaz, and Roper retain variable HD/HDE/XP ranges rather than being split into every possible HD permutation.
+- Creatures whose threat is mostly special effects (gaze, disease, mind swap, charm, paralysis, possession, acid corrosion, or spellcasting) received HDE adjustments from BFRPG asterisks, but their danger can vary widely by party level and preparation.
+- Very large monsters and singular heavy attackers, such as Aerial Servant, Kraken-like entries if present, giant dinosaurs, and Xorn, use larger Xd6-style single attacks rather than the default 1d6-range attack.
+- Several entries have source XP formulas or multiple source XP values. White Box XP was recalculated from converted HDE rather than copied directly from Basic Fantasy source XP.
+- Shared category introductions, such as Advi, Bagobone, Bear, Brazen Spheres, Celestials, Deep Ones, Elemental, and Eurypterids, were prepended to their child entries when applicable.
+
+Parser recovery notes:
+- Recovered Axolotl, Giant manually because the title is omitted from the PDF text layer at the page break.
+
+Index items not directly located in PDF text layer:
+- Axolotl, Giant (printed page 17)
+
+Converted entries:
+- Aboleth: HD 8; HDE 10; XP 1,400; source p. 2.
+- Advi, Avenger: HD 9; HDE 10; XP 1,400; source p. 3.
+- Advi, Charity: HD 6; HDE 7; XP 600; source p. 3.
+- Advi, Diligence: HD 12; HDE 12; XP 2,000; source p. 4.
+- Aergian Amalgamation: HD 13; HDE 15; XP 2,900; source p. 4.
+- Aerial Servant: HD 16; HDE 18; XP 3,800; source p. 5.
+- Aeromi: HD 1; HDE 1; XP 15; source p. 5.
+- Aghar: HD 9+2; HDE 11; XP 1,700; source p. 6.
+- Aghlorv: HD 3; HDE 3; XP 60; source p. 6.
+- Allip: HD 6; HDE 8; XP 800; source p. 7.
+- Alokin: HD 2; HDE 3; XP 60; source p. 7.
+- Amalgam: HD 8; HDE 9; XP 1,100; source p. 8.
+- Amarok: HD 2; HDE 2; XP 30; source p. 8.
+- Ankheg (Adult): HD 4 or 5; HDE 5 or 6; XP 240/400; source p. 9.
+- Ankheg (Juvenile): HD 2 or 3; HDE 3 or 4; XP 60/120; source p. 9.
+- Ant Lion, Giant: HD 4; HDE 4; XP 120; source p. 10.
+- Anubian: HD 1+1; HDE 1; XP 15; source p. 10.
+- Apatosapien: HD 6; HDE 6; XP 400; source p. 11.
+- Ape, Bonobo: HD 1-1; HDE 1; XP 15; source p. 11.
+- Ape, Carnivorous Snow: HD 6; HDE 6; XP 400; source p. 11.
+- Ape, Chimpanzee: HD 1+1; HDE 1; XP 15; source p. 12.
+- Ape, Gigantopithecus: HD 7; HDE 7; XP 600; source p. 12.
+- Ape, Girallon: HD 7; HDE 7; XP 600; source p. 12.
+- Ape, Gorilla: HD 4; HDE 4; XP 120; source p. 13.
+- Ape, Orangutan (Female): HD 2; HDE 2; XP 30; source p. 13.
+- Ape, Orangutan (Male): HD 3; HDE 3; XP 60; source p. 13.
+- Ape, Winged: HD 3; HDE 3; XP 60; source p. 13.
+- Aranea: HD 4; HDE 6; XP 400; source p. 14.
+- Armorollo: HD 1; HDE 1; XP 15; source p. 14.
+- Armorphage: HD 4; HDE 5; XP 240; source p. 15.
+- Aurumvorax: HD 10 or 12; HDE 10 or 12; XP 1,400/2,000; source p. 15.
+- Avir: HD 1+3; HDE 1; XP 15; source p. 16.
+- Awful Offal: HD 2; HDE 2; XP 30; source p. 16.
+- Axolotl, Giant: HD 10; HDE 11; XP 1,700; source p. 17.
+- Baboon: HD 1+1; HDE 1; XP 15; source p. 17.
+- Badger: HD 1+2; HDE 1; XP 15; source p. 17.
+- Bagobone, Aquatic: HD 8; HDE 10; XP 1,400; source p. 18.
+- Bagobone, Forest: HD 6; HDE 8; XP 800; source p. 18.
+- Baldander: HD 5; HDE 6; XP 400; source p. 18.
+- Balroach: HD 5; HDE 7; XP 600; source p. 55.
+- Baluchitherium: HD 14; HDE 14; XP 2,600; source p. 19.
+- Banshee: HD 7; HDE 9; XP 1,100; source p. 19.
+- Barghest: HD 6+3; HDE 7; XP 600; source p. 19.
+- Barkgheist: HD 5; HDE 7; XP 600; source p. 20.
+- Barrode: HD 2+2; HDE 2; XP 30; source p. 20.
+- Bat, Giant Flying Fox: HD 3; HDE 3; XP 60; source p. 21.
+- Bear, Battle: HD 8; HDE 9; XP 1,100; source p. 21.
+- Bear, Dream: HD 8; HDE 9; XP 1,100; source p. 22.
+- Bear, Ghost: HD 9; HDE 10; XP 1,400; source p. 22.
+- Bear, Long: HD 7; HDE 7; XP 600; source p. 23.
+- Bear, Migou: HD 6; HDE 7; XP 600; source p. 23.
+- Bear, Quill (Common): HD 5; HDE 5; XP 240; source p. 24.
+- Bear, Quill (Huge): HD 7; HDE 7; XP 600; source p. 24.
+- Bear, Ursine Behemoth: HD 15; HDE 15; XP 2,900; source p. 24.
+- Beaver, Giant: HD 4; HDE 4; XP 120; source p. 25.
+- Beebear: HD 7; HDE 8; XP 800; source p. 25.
+- Beetle, Giant Bombardier: HD 2; HDE 3; XP 60; source p. 25.
+- Beetle, Giant Boring: HD 5; HDE 5; XP 240; source p. 26.
+- Beetle, Giant Fire: HD 1+2; HDE 1; XP 15; source p. 26.
+- Beetle, Giant Oil: HD 2; HDE 3; XP 60; source p. 26.
+- Beetle, Giant Rhinoceros: HD 12; HDE 12; XP 2,000; source p. 26.
+- Beetle, Giant Stag: HD 7; HDE 7; XP 600; source p. 27.
+- Beetle, Giant Tiger: HD 3+1; HDE 3; XP 60; source p. 27.
+- Beetle, Giant Water: HD 4; HDE 4; XP 120; source p. 27.
+- Behir: HD 13; HDE 15; XP 2,900; source p. 27.
+- Bestomper: HD 11; HDE 12; XP 2,000; source p. 28.
+- Bisren: HD 1+2; HDE 1; XP 15; source p. 29.
+- Black Knight: HD 14; HDE 16; XP 3,200; source p. 29.
+- Blade Spirit (Common): HD 9; HDE 9; XP 1,100; source p. 30.
+- Blade Spirit (Greater): HD 12; HDE 12; XP 2,000; source p. 30.
+- Bloodshroud: HD 4; HDE 6; XP 400; source p. 31.
+- Bloodthorn: HD 4; HDE 4; XP 120; source p. 31.
+- Boar, Polar: HD 5; HDE 5; XP 240; source p. 32.
+- Boar, Sewer: HD 7; HDE 7; XP 600; source p. 32.
+- Bodach: HD 8; HDE 8; XP 800; source p. 33.
+- Bog Crone: HD 5+2; HDE 7; XP 600; source p. 33.
+- Boggart: HD 6; HDE 7; XP 600; source p. 33.
+- Boglin: HD 1 to 5; HDE 3; XP 60; source p. 34.
+- Bone Chimera: HD 5; HDE 5; XP 240; source p. 34.
+- Bone Horror (Common): HD 4; HDE 5; XP 240; source p. 35.
+- Bone Horror (Greater): HD 12; HDE 13; XP 2,300; source p. 35.
+- Bone Viper: HD 1; HDE 2; XP 30; source p. 35.
+- Botanical: HD 3; HDE 3; XP 60; source p. 36.
+- Brain Parasite: HD 1 HP; HDE 1; XP 15; source p. 36.
+- Brazen Sphere Imprisoner: HD 8; HDE 8; XP 800; source p. 37.
+- Brazen Sphere Major: HD 12; HDE 13; XP 2,300; source p. 37.
+- Brazen Sphere Minor: HD 3; HDE 4; XP 120; source p. 38.
+- Brazen Sphere Recombinant: HD 1; HDE 2; XP 30; source p. 38.
+- Bronze Bird: HD 1; HDE 1; XP 15; source p. 38.
+- Brownie: HD 1; HDE 3; XP 60; source p. 39.
+- Bruhl: HD 1; HDE 1; XP 15; source p. 39.
+- Bubák (or Living Scarecrow): HD 4; HDE 5; XP 240; source p. 40.
+- Bulette: HD 9; HDE 11; XP 1,700; source p. 40.
+- Bull Dragophant: HD 9; HDE 11; XP 1,700; source p. 84.
+- Bunyip: HD 6; HDE 6; XP 400; source p. 41.
+- Cacophony: HD 4; HDE 5; XP 240; source p. 41.
+- Cactus Man: HD 5; HDE 5; XP 240; source p. 42.
+- Cadaver: HD 6; HDE 8; XP 800; source p. 42.
+- Canein: HD 1; HDE 1; XP 15; source p. 43.
+- Cat Sith: HD 1+2; HDE 1; XP 15; source p. 43.
+- Catoblepas: HD 7; HDE 9; XP 1,100; source p. 43.
+- Catspider: HD ½ (1d4 hit points); HDE 2; XP 30; source p. 44.
+- Celestial, Arbiter: HD 18; HDE 20; XP 4,400; source p. 45.
+- Celestial, Ascended: HD 10; HDE 11; XP 1,700; source p. 45.
+- Celestial, Charger: HD 8; HDE 9; XP 1,100; source p. 45.
+- Celestial, Descendant: HD 4; HDE 5; XP 240; source p. 46.
+- Celestial, Egregor: HD 12; HDE 14; XP 2,600; source p. 46.
+- Celestial, Guardian: HD 9; HDE 10; XP 1,400; source p. 47.
+- Celestial, Messenger: HD 5; HDE 7; XP 600; source p. 47.
+- Celestial, Oracle: HD 11; HDE 13; XP 2,300; source p. 47.
+- Celestial, Solar: HD 7; HDE 9; XP 1,100; source p. 48.
+- Celestial, Warden: HD 12; HDE 14; XP 2,600; source p. 48.
+- Celestial, Watcher: HD 14; HDE 16; XP 3,200; source p. 48.
+- Changeling: HD 2; HDE 3; XP 60; source p. 49.
+- Chasenet: HD 1; HDE 1; XP 15; source p. 49.
+- Cheiropteran: HD 4; HDE 4; XP 120; source p. 49.
+- Chelonian: HD 1; HDE 1; XP 15; source p. 50.
+- Chimera, Lesser: HD 7 + 4; HDE 9; XP 1,100; source p. 51.
+- Choker: HD 3+3; HDE 3; XP 60; source p. 51.
+- Chuhl: HD 11; HDE 12; XP 2,000; source p. 52.
+- Chupacabra: HD 2; HDE 2; XP 30; source p. 52.
+- Cicada, Giant: HD 4; HDE 5; XP 240; source p. 53.
+- Cloaker: HD 6; HDE 8; XP 800; source p. 53.
+- Clockwork Armature: HD 10; HDE 11; XP 1,700; source p. 54.
+- Clockwork Skeleton: HD 2+2; HDE 2; XP 30; source p. 54.
+- Cockroach, Giant (Giant): HD 1; HDE 2; XP 30; source p. 55.
+- Cockroach, Giant Ghoul: HD 2; HDE 4; XP 120; source p. 55.
+- Common Electric: HD 1 2; HDE 2; XP 30; source p. 90.
+- Corpse Abomination: HD 6 12 18; HDE 6; XP 400; source p. 56.
+- Couatl: HD 9; HDE 11; XP 1,700; source p. 56.
+- Cow Dragon: HD 8; HDE 10; XP 1,400; source p. 57.
+- Cragodile: HD 8; HDE 8; XP 800; source p. 58.
+- Crawling Claw: HD ½ (1d4 hit points); HDE <1; XP 10; source p. 58.
+- Crayfish, Giant: HD 4+4; HDE 4; XP 120; source p. 58.
+- Crypt Dweller: HD 2; HDE 3; XP 60; source p. 58.
+- Crystalline Egret: HD 5; HDE 7; XP 600; source p. 59.
+- Cu-Sidhe (Common): HD 1; HDE 1; XP 15; source p. 60.
+- Cu-Sidhe (Special): HD 1 (+2d8 hp enlarged); HDE 3; XP 60; source p. 60.
+- Cuhtli: HD 9; HDE 11; XP 1,700; source p. 60.
+- Cunning Cloak: HD 6; HDE 6; XP 400; source p. 61.
+- Curse: HD 7; HDE 8; XP 800; source p. 61.
+- Cynodictis: HD 2; HDE 2; XP 30; source p. 62.
+- Dancing Monitor: HD 4; HDE 5; XP 240; source p. 62.
+- Dancing Shadow: HD 3; HDE 4; XP 120; source p. 62.
+- Dantaeons: HD 3; HDE 3; XP 60; source p. 63.
+- Darkmantle: HD 1+2; HDE 2; XP 30; source p. 64.
+- Darktorch: HD 4; HDE 5; XP 240; source p. 64.
+- Deadringer: HD 5; HDE 6; XP 400; source p. 65.
+- Deceiver Kitten: HD 1 to 4; HDE 3; XP 60; source p. 66.
+- Decempus: HD 4+4; HDE 5; XP 240; source p. 66.
+- Deep One, Common: HD 3+3; HDE 3; XP 60; source p. 67.
+- Deep One, Hybrid: HD 1+1; HDE 1; XP 15; source p. 68.
+- Deep One, Lagoon Creature: HD 5+5; HDE 5; XP 240; source p. 68.
+- Deep Spore: HD ½ (1d4 hit points); HDE 3; XP 60; source p. 69.
+- Deer, Huge (Megaloceros or Irish Deer): HD 7; HDE 7; XP 600; source p. 70.
+- Delver: HD 18; HDE 20; XP 4,400; source p. 70.
+- Demonic Automata: HD 12; HDE 14; XP 2,600; source p. 71.
+- Derej Cat: HD 1; HDE 2; XP 30; source p. 71.
+- Derej Cobra: HD 1; HDE 2; XP 30; source p. 71.
+- Derej Mongoose: HD 1; HDE 2; XP 30; source p. 71.
+- Derej Rat: HD 1; HDE 2; XP 30; source p. 72.
+- Desert Worm (Sand worm): HD 4; HDE 5; XP 240; source p. 72.
+- Dinosaur, Allosaurus: HD 15; HDE 15; XP 2,900; source p. 72.
+- Dinosaur, Ankylosaurus: HD 9; HDE 9; XP 1,100; source p. 73.
+- Dinosaur, Apatosaurus (Brontosaurus): HD 30; HDE 30; XP 8,400; source p. 73.
+- Dinosaur, Brachiosaurus: HD 36; HDE 36; XP 10,200; source p. 73.
+- Dinosaur, Camarasaurus: HD 20; HDE 20; XP 4,400; source p. 73.
+- Dinosaur, Centrosaurus (Monoclonius): HD 8; HDE 8; XP 800; source p. 74.
+- Dinosaur, Ceratosaurus: HD 8; HDE 8; XP 800; source p. 74.
+- Dinosaur, Cetiosaurus: HD 24; HDE 24; XP 5,600; source p. 74.
+- Dinosaur, Compsognathus: HD ½ (1d4 hit points); HDE <1; XP 10; source p. 74.
+- Dinosaur, Deinonychus: HD 3; HDE 3; XP 60; source p. 75.
+- Dinosaur, Diplodocus: HD 24; HDE 24; XP 5,600; source p. 75.
+- Dinosaur, Elasmosaurus: HD 15; HDE 15; XP 2,900; source p. 75.
+- Dinosaur, Euoplocephalus: HD 8; HDE 8; XP 800; source p. 76.
+- Dinosaur, Gorgosaurus: HD 13; HDE 13; XP 2,300; source p. 76.
+- Dinosaur, Iguanadon: HD 6; HDE 6; XP 400; source p. 76.
+- Dinosaur, Lambeosaurus: HD 12; HDE 12; XP 2,000; source p. 76.
+- Dinosaur, Megalosaurus: HD 12; HDE 12; XP 2,000; source p. 77.
+- Dinosaur, Mosasaurus: HD 12; HDE 12; XP 2,000; source p. 77.
+- Dinosaur, Pentaceratops: HD 10; HDE 10; XP 1,400; source p. 77.
+- Dinosaur, Plateosaurus: HD 8; HDE 8; XP 800; source p. 77.
+- Dinosaur, Plesiosaurus: HD 20; HDE 20; XP 4,400; source p. 78.
+- Dinosaur, Styracosaurus: HD 10; HDE 10; XP 1,400; source p. 78.
+- Dinosaur, Teratosaurus: HD 10; HDE 10; XP 1,400; source p. 78.
+- Dinosaur, Velociraptor: HD 1; HDE 1; XP 15; source p. 79.
+- Diprotodon: HD 4; HDE 4; XP 120; source p. 79.
+- Dogboy: HD 3; HDE 4; XP 120; source p. 79.
+- Dolphin: HD 2; HDE 2; XP 30; source p. 80.
+- Dormayvoo: HD 2; HDE 2; XP 30; source p. 80.
+- Dracomander, Flame: HD 8; HDE 10; XP 1,400; source p. 81.
+- Dracomander, Frost: HD 10; HDE 12; XP 2,000; source p. 81.
+- Dracomander, Lightning: HD 9; HDE 11; XP 1,700; source p. 82.
+- Dragon, Cave: HD 9; HDE 11; XP 1,700; source p. 82.
+- Dragon, Death: HD 11; HDE 13; XP 2,300; source p. 83.
+- Dragonfly, Giant: HD 4; HDE 4; XP 120; source p. 83.
+- Dragonhawke: HD 2; HDE 2; XP 30; source p. 84.
+- Dragonne: HD 9; HDE 10; XP 1,400; source p. 84.
+- Dragophant: HD 8; HDE 10; XP 1,400; source p. 84.
+- Drat: HD ½ (1d4 hit points); HDE 2; XP 30; source p. 85.
+- Draugr: HD 9; HDE 11; XP 1,700; source p. 85.
+- Dreadnought: HD 10; HDE 11; XP 1,700; source p. 86.
+- Dreamless: HD 2; HDE 3; XP 60; source p. 86.
+- Duckbear: HD 6; HDE 6; XP 400; source p. 87.
+- Dufferped: HD 1; HDE 1; XP 15; source p. 87.
+- Dwarrow: HD 1+1; HDE 1; XP 15; source p. 88.
+- Dynamo: HD 2; HDE 3; XP 60; source p. 88.
+- Eel, Common, Electric, Weed, & Giant (Giant): HD 2, 4, or 6 () 2; HDE 2 or 8; XP 30/800; source p. 90.
+- Eel, Common, Electric, Weed, & Giant (Weed): HD 1 2; HDE 2; XP 30; source p. 90.
+- Elchman: HD 9; HDE 9; XP 1,100; source p. 90.
+- Elemental, Blood (Device): HD 12; HDE 13; XP 2,300; source p. 91.
+- Elemental, Blood (Spell): HD 16; HDE 17; XP 3,500; source p. 91.
+- Elemental, Blood (Staff): HD 8; HDE 9; XP 1,100; source p. 91.
+- Elemental, Cold (Device): HD 12; HDE 13; XP 2,300; source p. 92.
+- Elemental, Cold (Spell): HD 16; HDE 17; XP 3,500; source p. 92.
+- Elemental, Cold (Staff): HD 8; HDE 9; XP 1,100; source p. 92.
+- Elemental, Lightning (Device): HD 12; HDE 13; XP 2,300; source p. 92.
+- Elemental, Lightning (Spell): HD 16; HDE 17; XP 3,500; source p. 92.
+- Elemental, Lightning (Staff): HD 8; HDE 9; XP 1,100; source p. 92.
+- Elemental, Metal (Device): HD 12; HDE 13; XP 2,300; source p. 92.
+- Elemental, Metal (Spell): HD 16; HDE 17; XP 3,500; source p. 92.
+- Elemental, Metal (Staff): HD 8; HDE 9; XP 1,100; source p. 92.
+- Elemental, Wood (Device): HD 12; HDE 13; XP 2,300; source p. 92.
+- Elemental, Wood (Spell): HD 16; HDE 17; XP 3,500; source p. 92.
+- Elemental, Wood (Staff): HD 8; HDE 9; XP 1,100; source p. 92.
+- Elephant, Shovel Tusk: HD 10; HDE 10; XP 1,400; source p. 93.
+- Elf Bugs, Queen: HD 7; HDE 8; XP 800; source p. 93.
+- Elf Bugs, Swarm: HD 3; HDE 3; XP 60; source p. 94.
+- Elf, Brugh: HD 1; HDE 2; XP 30; source p. 93.
+- Encephallos Titanum: HD 9; HDE 9; XP 1,100; source p. 94.
+- Entelodont: HD 6; HDE 6; XP 400; source p. 95.
+- Ettercap: HD 6+1; HDE 6; XP 400; source p. 95.
+- Eurypterid, Buffalopterus: HD 1; HDE 1; XP 15; source p. 96.
+- Eurypterid, Jaekelopterus: HD 4; HDE 4; XP 120; source p. 96.
+- Eurypterid, Megalograptus: HD 1; HDE 2; XP 30; source p. 96.
+- Eurypterid, Pentecopterus: HD 2; HDE 2; XP 30; source p. 97.
+- Eye, Floating: HD ½ (1d4 hit points); HDE 2; XP 30; source p. 97.
+- Fairy Dragon: HD 3; HDE 4; XP 120; source p. 97.
+- Fairy, Forest: HD 10; HDE 11; XP 1,700; source p. 98.
+- Fairy, Frost: HD 10; HDE 11; XP 1,700; source p. 98.
+- Fairy, Mountain: HD 10; HDE 11; XP 1,700; source p. 99.
+- Fairy, Ocean: HD 10; HDE 11; XP 1,700; source p. 99.
+- Fairy, Volcano: HD 10; HDE 11; XP 1,700; source p. 99.
+- Faun (and Ibix): HD 1; HDE 1; XP 15; source p. 100.
+- Felisian: HD 3; HDE 3; XP 60; source p. 100.
+- Fish, Crusher (Adult): HD 7 to 8; HDE 7; XP 600; source p. 101.
+- Fish, Crusher (Fry): HD 1 to 2; HDE 1; XP 15; source p. 101.
+- Fish, Crusher (Juvenile): HD 3 to 6; HDE 3; XP 60; source p. 101.
+- Fish, Giant Gar: HD 8; HDE 8; XP 800; source p. 101.
+- Fish, Giant Pike: HD 4; HDE 4; XP 120; source p. 102.
+- Fish, Giant Prehistoric (Dinichthys): HD 10; HDE 10; XP 1,400; source p. 102.
+- Flashbag: HD 1 hp; HDE 1; XP 15; source p. 102.
+- Flederkatze: HD 2; HDE 4; XP 120; source p. 103.
+- Floran: HD 1; HDE 1; XP 15; source p. 103.
+- Flying Man-of-War: HD 2; HDE 2; XP 30; source p. 104.
+- Fool's Idol: HD 2; HDE 3; XP 60; source p. 104.
+- Frog, Giant Killer: HD 2; HDE 2; XP 30; source p. 104.
+- Frog, Giant Poisonous: HD 1; HDE 2; XP 30; source p. 104.
+- Frost Worm: HD 16; HDE 18; XP 3,800; source p. 105.
+- Fungi, Octopus: HD 6; HDE 6; XP 400; source p. 105.
+- Fungi, Violet (Huge): HD 4; HDE 5; XP 240; source p. 106.
+- Fungi, Violet (Large): HD 3; HDE 4; XP 120; source p. 106.
+- Fungi, Violet (Medium): HD 2; HDE 3; XP 60; source p. 106.
+- Fungi, Violet (Small): HD 1; HDE 2; XP 30; source p. 106.
+- Fyrenewt: HD 2+2; HDE 3; XP 60; source p. 106.
+- Gas Spore: HD ½ (1d4 hit points); HDE 2; XP 30; source p. 107.
+- Gaze Guard: HD 5; HDE 6; XP 400; source p. 107.
+- Geminate Serpent, Blue: HD 7; HDE 9; XP 1,100; source p. 108.
+- Geminate Serpent, Bone: HD 11; HDE 13; XP 2,300; source p. 108.
+- Geminate Serpent, Green: HD 10; HDE 12; XP 2,000; source p. 109.
+- Geminate Serpent, Pleasant: HD 10; HDE 12; XP 2,000; source p. 109.
+- Geminate Serpent, Sea: HD 7; HDE 9; XP 1,100; source p. 110.
+- Geminate Serpent, Shadow: HD 8; HDE 10; XP 1,400; source p. 110.
+- Geminate Serpent, White: HD 8; HDE 10; XP 1,400; source p. 111.
+- Gerbalaine: HD 1; HDE 1; XP 15; source p. 111.
+- Ghost Shroom: HD 4 (main stalk), 2 (small stalk); HDE 4; XP 120; source p. 112.
+- Giant Badger: HD 10; HDE 10; XP 1,400; source p. 17.
+- Giant Flying Brain: HD 5+1; HDE 6; XP 400; source p. 114.
+- Giant Mink: HD 4+4; HDE 4; XP 120; source p. 179.
+- Giant, Ettin: HD 13; HDE 13; XP 2,300; source p. 114.
+- Giant, Sand: HD 13; HDE 13; XP 2,300; source p. 115.
+- Giant, Sea: HD 10+3; HDE 10; XP 1,400; source p. 115.
+- Giant, Titan: HD 17 to 22; HDE 19; XP 4,100; source p. 115.
+- Gibbering Mouther: HD 9; HDE 11; XP 1,700; source p. 116.
+- Gila: HD 1-1; HDE 1; XP 15; source p. 116.
+- Glyptodon: HD 4; HDE 4; XP 120; source p. 117.
+- Gnoll, Regenerating: HD 2; HDE 3; XP 60; source p. 117.
+- Goat, Giant: HD 3+1; HDE 3; XP 60; source p. 118.
+- Goblin, Moon: HD 2; HDE 2; XP 30; source p. 118.
+- Golden Oak: HD 12; HDE 14; XP 2,600; source p. 119.
+- Golem, Chain: HD 20; HDE 22; XP 5,000; source p. 120.
+- Golem, Crystal: HD 6; HDE 7; XP 600; source p. 121.
+- Golem, Gold: HD 13; HDE 14; XP 2,600; source p. 121.
+- Golem, Hay: HD 8; HDE 10; XP 1,400; source p. 121.
+- Golem, Household: HD ½ (1d4 hit points); HDE <1; XP 10; source p. 122.
+- Golem, Lead: HD 12; HDE 13; XP 2,300; source p. 122.
+- Golem, Purifier: HD 8; HDE 10; XP 1,400; source p. 122.
+- Golem, Rope: HD 4; HDE 5; XP 240; source p. 123.
+- Golem, Straw: HD 3; HDE 4; XP 120; source p. 123.
+- Golem, Tin: HD 7; HDE 8; XP 800; source p. 123.
+- Golem, Web: HD 3; HDE 4; XP 120; source p. 124.
+- Gorophont: HD 9; HDE 9; XP 1,100; source p. 124.
+- Grave Caller: HD 2; HDE 3; XP 60; source p. 125.
+- Grave Dancer: HD Special; HDE 8; XP 800; source p. 125.
+- Grave Sentinel (Watcher, and Guardian) (Guardian): HD 14; HDE 16; XP 3,200; source p. 126.
+- Grave Sentinel (Watcher, and Guardian) (Sentinel): HD 3; HDE 5; XP 240; source p. 126.
+- Grave Sentinel (Watcher, and Guardian) (Watcher): HD 6; HDE 8; XP 800; source p. 126.
+- Grawl: HD 2+2; HDE 3; XP 60; source p. 126.
+- Great Orb of Eyes: HD 12; HDE 13; XP 2,300; source p. 127.
+- Gremilkin (Temple Cat): HD 2; HDE 2; XP 30; source p. 128.
+- Grick: HD 2; HDE 2; XP 30; source p. 128.
+- Griffon, Hawksian: HD 8; HDE 8; XP 800; source p. 129.
+- Griffon, Imperial: HD 9; HDE 9; XP 1,100; source p. 129.
+- Grim: HD 6+6; HDE 8; XP 800; source p. 130.
+- Grimfrog: HD 6; HDE 6; XP 400; source p. 130.
+- Grimhost: HD 5; HDE 7; XP 600; source p. 131.
+- Grimlock: HD 2; HDE 2; XP 30; source p. 131.
+- Guard Fern: HD 6; HDE 7; XP 600; source p. 132.
+- Gump: HD 4; HDE 5; XP 240; source p. 132.
+- Hag: HD 6; HDE 7; XP 600; source p. 133.
+- Hatchette: HD 4; HDE 4; XP 120; source p. 133.
+- Headless Horseman: HD 7 (or more); HDE 9; XP 1,100; source p. 134.
+- Heucova: HD 2; HDE 4; XP 120; source p. 134.
+- Hippocampus: HD 2; HDE 2; XP 30; source p. 135.
+- Hippopotamus: HD 6; HDE 6; XP 400; source p. 135.
+- Hivelings: HD 1 (Special); HDE 2; XP 30; source p. 135.
+- Hob: HD 1-1; HDE 1; XP 15; source p. 136.
+- Hobgoblin, Bluenose: HD 2; HDE 2; XP 30; source p. 137.
+- Homunculus: HD 2; HDE 2; XP 30; source p. 138.
+- Hruul: HD 6; HDE 6; XP 400; source p. 138.
+- Husk: HD 3; HDE 3; XP 60; source p. 139.
+- Ichneumon: HD 12 or 15; HDE 12 or 15; XP 2,000/2,900; source p. 139.
+- Illusion Trapper: HD 9; HDE 11; XP 1,700; source p. 140.
+- Infected, Giant Ant: HD 5; HDE 5; XP 240; source p. 140.
+- Infected, Giant Rhinoceros Beetle: HD 12; HDE 12; XP 2,000; source p. 141.
+- Infected, Humanoid: HD 2 or higher; HDE 2; XP 30; source p. 141.
+- Infected, Owl Bear: HD 6; HDE 6; XP 400; source p. 142.
+- Infected, Zombie: HD 3; HDE 3; XP 60; source p. 142.
+- Demon, Agares: HD 7+7; HDE 8; XP 800; source p. 143.
+- Demon, Arachnea: HD 6; HDE 7; XP 600; source p. 143.
+- Demon, Balor: HD 8+8; HDE 9; XP 1,100; source p. 144.
+- Demon, Barbed Devil: HD 8; HDE 9; XP 1,100; source p. 144.
+- Demon, Baubas: HD 7; HDE 9; XP 1,100; source p. 145.
+- Demon, Bone Devil: HD 9; HDE 10; XP 1,400; source p. 145.
+- Demon, Creoboros: HD 8, 12 , 16 , 20; HDE 16; XP 3,200; source p. 146.
+- Demon, Dread Horseman: HD 6 to 8; HDE 10; XP 1,400; source p. 146.
+- Demon, Eldri: HD 9; HDE 11; XP 1,700; source p. 147.
+- Demon, Erinyes: HD 7+2; HDE 8; XP 800; source p. 147.
+- Demon, Fiend: HD 13; HDE 15; XP 2,900; source p. 148.
+- Demon, Glabrezu: HD 10; HDE 11; XP 1,700; source p. 149.
+- Demon, Hezrou: HD 10; HDE 12; XP 2,000; source p. 149.
+- Demon, Ice Devil: HD 3; HDE 5; XP 240; source p. 149.
+- Demon, Imp: HD 2; HDE 4; XP 120; source p. 150.
+- Demon, Larva: HD 1; HDE 1; XP 15; source p. 151.
+- Demon, Lemure: HD 3; HDE 3; XP 60; source p. 151.
+- Demon, Malacoda: HD 5; HDE 7; XP 600; source p. 151.
+- Demon, Malebranche: HD 5+5; HDE 7; XP 600; source p. 151.
+- Demon, Manes: HD 1; HDE 2; XP 30; source p. 152.
+- Demon, Marilith: HD 7; HDE 9; XP 1,100; source p. 152.
+- Demon, Nalfeshni: HD 11; HDE 13; XP 2,300; source p. 153.
+- Demon, Night Hag: HD 8; HDE 10; XP 1,400; source p. 153.
+- Demon, Nightmare: HD 6+6; HDE 7; XP 600; source p. 154.
+- Demon, Pazzu: HD 9; HDE 10; XP 1,400; source p. 155.
+- Demon, Quasit: HD 2; HDE 4; XP 120; source p. 155.
+- Demon, Rubicante: HD 4; HDE 6; XP 400; source p. 156.
+- Demon, Shadow Fiend: HD 6, 8, 10, or 12; HDE 9 or 13; XP 1,100/2,300; source p. 156.
+- Demon, Spined Devil: HD 8; HDE 9; XP 1,100; source p. 157.
+- Demon, Succubus: HD 7; HDE 9; XP 1,100; source p. 158.
+- Demon, Vega: HD 9; HDE 11; XP 1,700; source p. 158.
+- Demon, Vrock: HD 8; HDE 9; XP 1,100; source p. 159.
+- Inversegen: HD 5; HDE 5; XP 240; source p. 159.
+- Iron Snapper: HD 6; HDE 7; XP 600; source p. 159.
+- Issuv: HD 2; HDE 2; XP 30; source p. 160.
+- Jack O'Lantern: HD 3; HDE 4; XP 120; source p. 160.
+- Jackal: HD ½; HDE <1; XP 10; source p. 161.
+- Jackalwere: HD 4; HDE 5; XP 240; source p. 161.
+- Janni: HD 3+1; HDE 3; XP 60; source p. 161.
+- Jellyfish, Giant: HD 1 to 4; HDE 1; XP 15; source p. 162.
+- Jotenkin: HD 3+3; HDE 3; XP 60; source p. 162.
+- Kappa: HD 4; HDE 4; XP 120; source p. 163.
+- Kelpie: HD 2; HDE 3; XP 60; source p. 163.
+- Kirin: HD 12; HDE 14; XP 2,600; source p. 163.
+- Kraken: HD 36; HDE 38; XP 9,800; source p. 164.
+- Kreptax: HD 2; HDE 2; XP 30; source p. 164.
+- Krong Reap: HD 6; HDE 7; XP 600; source p. 165.
+- Lamia: HD 6+1; HDE 8; XP 800; source p. 165.
+- Lammasu: HD 6+2; HDE 7; XP 600; source p. 165.
+- Lamprey (Giant): HD 5; HDE 5; XP 240; source p. 166.
+- Lamprey (Normal): HD 1+2; HDE 1; XP 15; source p. 166.
+- Leoporid, Great: HD 3; HDE 3; XP 60; source p. 166.
+- Leprechaun: HD 1; HDE 3; XP 60; source p. 166.
+- Lerini: HD 1; HDE 1; XP 15; source p. 167.
+- Leucrotta: HD 6+1; HDE 6; XP 400; source p. 168.
+- Lich: HD 10 or more see below; HDE 12; XP 2,000; source p. 168.
+- Linnorm: HD 7; HDE 9; XP 1,100; source p. 169.
+- Living Candlestick: HD 1; HDE 2; XP 30; source p. 170.
+- Living Darkness: HD 4; HDE 6; XP 400; source p. 170.
+- Living Furniture: HD 2 to 4; HDE 2; XP 30; source p. 170.
+- Living Graveyard: HD 40; HDE 42; XP 11,000; source p. 171.
+- Lizard, Fire: HD 7 to 12; HDE 9; XP 1,100; source p. 171.
+- Lizard, Giant Minotaur: HD 8; HDE 8; XP 800; source p. 172.
+- Lizard, Giant Subterranean: HD 6; HDE 6; XP 400; source p. 172.
+- Lizard, Shocker: HD 2; HDE 3; XP 60; source p. 172.
+- Loadstar: HD 2; HDE 2; XP 30; source p. 173.
+- Lobizon: HD 3; HDE 5; XP 240; source p. 173.
+- Locathah: HD 2; HDE 2; XP 30; source p. 174.
+- Lonchani: HD 4; HDE 5; XP 240; source p. 174.
+- Lotl: HD 6; HDE 7; XP 600; source p. 175.
+- Lurker Above: HD 10; HDE 10; XP 1,400; source p. 175.
+- Lycanthrope, Werecockroach: HD 3; HDE 5; XP 240; source p. 175.
+- Lynx, Giant: HD 2+2; HDE 2; XP 30; source p. 176.
+- Maggot-man: HD 4 (or more); HDE 5; XP 240; source p. 176.
+- Magnystic Mite: HD 1 hit point; HDE 2; XP 30; source p. 177.
+- Main Bush: HD 4; HDE 4; XP 120; source p. 112.
+- Manticore, Fell: HD 5; HDE 7; XP 600; source p. 177.
+- Marid: HD 8; HDE 9; XP 1,100; source p. 178.
+- Megatherium (or Giant Sloth): HD 9; HDE 9; XP 1,100; source p. 178.
+- Mesmerbelly: HD 1- 4; HDE 3; XP 60; source p. 178.
+- Mimic: HD 7; HDE 9; XP 1,100; source p. 179.
+- Mink: HD ½; HDE <1; XP 10; source p. 179.
+- Missile Toad: HD 1-2 HP; HDE 1; XP 15; source p. 179.
+- Mithridatium Bush: HD 3; HDE 4; XP 120; source p. 180.
+- Mohrg: HD 14; HDE 16; XP 3,200; source p. 180.
+- Mold, Deadly (Brown): HD 2; HDE 3; XP 60; source p. 181.
+- Mold, Deadly (Yellow): HD 2; HDE 3; XP 60; source p. 181.
+- Monachian: HD 4; HDE 4; XP 120; source p. 181.
+- Monk-ee: HD 4; HDE 5; XP 240; source p. 182.
+- Monkey: HD ½; HDE <1; XP 10; source p. 183.
+- Monkeybear: HD 1; HDE 1; XP 15; source p. 183.
+- Moonlight Butterfly: HD 2; HDE 3; XP 60; source p. 184.
+- Moonshiner: HD 2; HDE 3; XP 60; source p. 184.
+- Mosquito, Giant: HD ½; HDE 2; XP 30; source p. 185.
+- Mushroom Men (Fungoids): HD 1 to 10; HDE 1; XP 15; source p. 185.
+- Naga, Aquatic: HD 7 to 9; HDE 9; XP 1,100; source p. 186.
+- Naga, Guardian: HD 11 to 13; HDE 13; XP 2,300; source p. 186.
+- Naga, Spirit: HD 9 to 11; HDE 11; XP 1,700; source p. 186.
+- Naiad: HD 3; HDE 4; XP 120; source p. 187.
+- Nazgorean, Digester: HD 12; HDE 13; XP 2,300; source p. 188.
+- Nazgorean, Eelbat: HD 1; HDE 2; XP 30; source p. 188.
+- Nazgorean, Frogman: HD 3; HDE 3; XP 60; source p. 188.
+- Nazgorean, Gray Render: HD 10; HDE 10; XP 1,400; source p. 189.
+- Nazgorean, Hydramander: HD 8 to 12; HDE 8; XP 800; source p. 189.
+- Nazgorean, Nehnite: HD 1d4 per MU level (AB +1 per MU level); HDE 2; XP 30; source p. 189.
+- Nazgorean, Octospider: HD 1 to 6; HDE 3; XP 60; source p. 190.
+- Nazgorean, Spiderwolf: HD 4; HDE 6; XP 400; source p. 191.
+- Nazgorean, Tigersquid: HD 7; HDE 7; XP 600; source p. 191.
+- Necrotic Ooze: HD 3; HDE 3; XP 60; source p. 192.
+- Nok Tantima: HD 12; HDE 14; XP 2,600; source p. 193.
+- Norker: HD 1+2; HDE 1; XP 15; source p. 193.
+- Nymph: HD 3; HDE 5; XP 240; source p. 194.
+- Octobat: HD 8; HDE 9; XP 1,100; source p. 194.
+- Octopeople: HD 8; HDE 8; XP 800; source p. 195.
+- Oculus Abyssi: HD 11; HDE 13; XP 2,300; source p. 196.
+- Oculus Inferni: HD 9; HDE 10; XP 1,400; source p. 196.
+- Oculus Rex (Common): HD 7; HDE 9; XP 1,100; source p. 197.
+- Oculus Rex (Emperor): HD 13; HDE 15; XP 2,900; source p. 197.
+- Oculus Somno: HD 8; HDE 9; XP 1,100; source p. 198.
+- Oculus Vigilans: HD 4+4; HDE 6; XP 400; source p. 198.
+- Odeum: HD 4; HDE 5; XP 240; source p. 199.
+- Ogre Mage: HD 5+2; HDE 7; XP 600; source p. 199.
+- Ogre, Bog: HD 4+1; HDE 5; XP 240; source p. 200.
+- Ogre, Swamp: HD 16+11; HDE 16; XP 3,200; source p. 200.
+- Ohberen: HD 4; HDE 4; XP 120; source p. 201.
+- Omotharkin: HD 4; HDE 4; XP 120; source p. 201.
+- Onocentaur: HD 3+3; HDE 3; XP 60; source p. 202.
+- Ophidian: HD 3+1; HDE 4; XP 120; source p. 202.
+- Orc, Snow: HD 1; HDE 2; XP 30; source p. 202.
+- Orog: HD 3; HDE 3; XP 60; source p. 203.
+- Orycleo: HD 5; HDE 5; XP 240; source p. 203.
+- Orycleo, Snow: HD 5 No. of Attack: 2 claws, 1 bite; HDE 5; XP 240; source p. 204.
+- Otter (Common): HD ½; HDE 2; XP 30; source p. 204.
+- Otter (Giant): HD 5; HDE 5; XP 240; source p. 204.
+- Otyugh: HD 6; HDE 7; XP 600; source p. 204.
+- Owl, Giant: HD 6; HDE 6; XP 400; source p. 205.
+- Owlbear, Northern: HD 8; HDE 8; XP 800; source p. 205.
+- Owlbearlin: HD 3; HDE 3; XP 60; source p. 205.
+- Owlwolf: HD 3; HDE 4; XP 120; source p. 206.
+- Pangotherium: HD 7; HDE 7; XP 600; source p. 206.
+- Paper Tiger: HD 7, 9, or 11; HDE 9 or 12; XP 1,100/2,000; source p. 207.
+- Paraceratherium (Indricotherium): HD 12; HDE 12; XP 2,000; source p. 208.
+- Peryton: HD 4; HDE 5; XP 240; source p. 208.
+- Phaerim: HD 1d6 hp (1 HD); HDE 1; XP 15; source p. 208.
+- Phantom Fungus: HD 2; HDE 2; XP 30; source p. 209.
+- Phoenix: HD 9; HDE 11; XP 1,700; source p. 209.
+- Phouka: HD 5; HDE 6; XP 400; source p. 210.
+- Piercer (or Stalag): HD 1 to 4; HDE 1; XP 15; source p. 210.
+- Pipe Beast: HD 6+6; HDE 7; XP 600; source p. 211.
+- Pixie, Ward: HD 1; HDE 2; XP 30; source p. 212.
+- Plague Hound: HD 4; HDE 5; XP 240; source p. 212.
+- Poludnitsa: HD 3; HDE 4; XP 120; source p. 213.
+- Porcupine, Giant: HD 6; HDE 6; XP 400; source p. 213.
+- Praying Mantis, Giant: HD 5; HDE 5; XP 240; source p. 214.
+- Prince Frog: HD 2; HDE 3; XP 60; source p. 214.
+- Pseudodragon: HD 2; HDE 3; XP 60; source p. 215.
+- Pseudowyvern: HD 3; HDE 4; XP 120; source p. 215.
+- Quinotaur: HD 8+3; HDE 9; XP 1,100; source p. 215.
+- Rabbidrake: HD 1; HDE 2; XP 30; source p. 216.
+- Rabbit Prince: HD 10; HDE 11; XP 1,700; source p. 216.
+- Raccoon, Giant: HD 5; HDE 5; XP 240; source p. 217.
+- Raggidy: HD 3; HDE 3; XP 60; source p. 217.
+- Rakshasa: HD 7; HDE 9; XP 1,100; source p. 218.
+- Rakun: HD 1d6 HP; HDE 1; XP 15; source p. 218.
+- Ram, War: HD 3; HDE 3; XP 60; source p. 219.
+- Ram, Wild: HD 2; HDE 2; XP 30; source p. 219.
+- Ramfrog: HD 1 HP; HDE 2; XP 30; source p. 220.
+- Raptorsapien: HD 6; HDE 6; XP 400; source p. 220.
+- Rat Dog: HD 3; HDE 3; XP 60; source p. 221.
+- Ray (Manta): HD 9; HDE 9; XP 1,100; source p. 221.
+- Ray (Pungi): HD 4; HDE 4; XP 120; source p. 221.
+- Ray (Sting): HD 1; HDE 1; XP 15; source p. 221.
+- Red Cap: HD 3; HDE 4; XP 120; source p. 222.
+- Remorhaz: HD 7 to 14; HDE 9; XP 1,100; source p. 222.
+- Resonated: HD 3; HDE 4; XP 120; source p. 223.
+- Rhek: HD 3; HDE 3; XP 60; source p. 223.
+- Rock Bat: HD 2; HDE 3; XP 60; source p. 223.
+- Rock Roller: HD 4; HDE 5; XP 240; source p. 224.
+- Roper: HD 10 to 12; HDE 12; XP 2,000; source p. 224.
+- Rot Vulture: HD 2; HDE 2; XP 30; source p. 225.
+- Rousirl: HD 2; HDE 2; XP 30; source p. 225.
+- Sabre Worm: HD 10; HDE 11; XP 1,700; source p. 226.
+- Sahuagin: HD 2+2; HDE 3; XP 60; source p. 226.
+- Salamander, Wind: HD 10; HDE 11; XP 1,700; source p. 226.
+- Sasquatch: HD 5+5; HDE 5; XP 240; source p. 227.
+- Satyr: HD 5; HDE 6; XP 400; source p. 227.
+- Scarecrow, Dread: HD 4 + 2; HDE 6; XP 400; source p. 228.
+- Scarecrow, Living (Normal): HD 4 + 2; HDE 5; XP 240; source p. 228.
+- Scarecrow, Living (Small): HD 2 + 2; HDE 3; XP 60; source p. 228.
+- Scrab: HD 5; HDE 6; XP 400; source p. 229.
+- Sea Cat: HD 11; HDE 11; XP 1,700; source p. 229.
+- Sea Hag: HD 4+1; HDE 4; XP 120; source p. 229.
+- Sea Lion: HD 6; HDE 6; XP 400; source p. 231.
+- Sea Monster: HD 7 to 12; HDE 7; XP 600; source p. 231.
+- Sea-Ghast: HD 2; HDE 4; XP 120; source p. 113.
+- Sea-Ghoul: HD 2; HDE 3; XP 60; source p. 113.
+- Seahorse, Giant: HD 2; HDE 2; XP 30; source p. 230.
+- Selkie: HD 4; HDE 5; XP 240; source p. 231.
+- Serpent, Giant Devouring: HD 36; HDE 38; XP 9,800; source p. 232.
+- Shackile: HD 3; HDE 3; XP 60; source p. 233.
+- Shambler (Greater): HD 13; HDE 15; XP 2,900; source p. 233.
+- Shambler (Lesser): HD 3; HDE 5; XP 240; source p. 233.
+- Shark, Megalodon: HD 12; HDE 12; XP 2,000; source p. 234.
+- Shedu: HD 9+9; HDE 10; XP 1,400; source p. 234.
+- Sheep, Giant: HD 4; HDE 4; XP 120; source p. 234.
+- Shield Guardian: HD 15+20; HDE 17; XP 3,500; source p. 234.
+- Sicklemore Tree: HD 4 to 8; HDE 6; XP 400; source p. 235.
+- Skeletal Flayer: HD 1; HDE 2; XP 30; source p. 235.
+- Skeletal Legs: HD ½; HDE <1; XP 10; source p. 236.
+- Skeletal Steed: HD 3; HDE 3; XP 60; source p. 236.
+- Skeleton, Crimson Bones: HD 2; HDE 3; XP 60; source p. 237.
+- Skeleton, Diseased: HD 2; HDE 2; XP 30; source p. 237.
+- Skeleton, Gellybone: HD 2; HDE 2; XP 30; source p. 238.
+- Skeleton, Haunted Bones: HD 3; HDE 3; XP 60; source p. 238.
+- Skeleton, Lake: HD 2; HDE 3; XP 60; source p. 238.
+- Skeleton, Lava Lake: HD 7+2; HDE 8; XP 800; source p. 239.
+- Skeleton, Pitch: HD 6; HDE 7; XP 600; source p. 240.
+- Skerraxis: HD 3; HDE 3; XP 60; source p. 240.
+- Skragg: HD 4; HDE 5; XP 240; source p. 240.
+- Skum: HD 2; HDE 3; XP 60; source p. 2.
+- Skunk, Giant: HD 5; HDE 5; XP 240; source p. 240.
+- Slime, Gold: HD 3; HDE 4; XP 120; source p. 241.
+- Slime, Red: HD 1 to 6; HDE 3; XP 60; source p. 241.
+- Slithering Tracker: HD 5; HDE 5; XP 240; source p. 242.
+- Slug, Giant: HD 12; HDE 12; XP 2,000; source p. 242.
+- Slug, Spitting: HD 2; HDE 4; XP 120; source p. 242.
+- Small Bush: HD 2; HDE 2; XP 30; source p. 112.
+- Smouldergeist: HD 12; HDE 14; XP 2,600; source p. 243.
+- Snail, Giant: HD 6; HDE 7; XP 600; source p. 243.
+- Snail, Giant Barb: HD 4 or 4 (poisonous); HDE 4 or 5; XP 120/240; source p. 244.
+- Snail, Giant Cone: HD 3; HDE 4; XP 120; source p. 244.
+- Snail, Giant Pounder: HD 2; HDE 2; XP 30; source p. 244.
+- Snake, Amphisbaena: HD 6; HDE 6; XP 400; source p. 244.
+- Snake, Clockwork Razor: HD 2; HDE 2; XP 30; source p. 245.
+- Snake, Giant Rattlesnake: HD 2; HDE 3; XP 60; source p. 245.
+- Snake, Hoop: HD 1; HDE 2; XP 30; source p. 245.
+- Snake, Rainbow: HD 4; HDE 5; XP 240; source p. 246.
+- Snake, Uktena: HD 9; HDE 10; XP 1,400; source p. 246.
+- Snake, Vampire: HD 2; HDE 4; XP 120; source p. 247.
+- Snake, Vort: HD 1+2 No of Attacks: 1 bite; HDE 2; XP 30; source p. 247.
+- Spellgoat: HD ½; HDE 2; XP 30; source p. 247.
+- Spellripper: HD 1; HDE 2; XP 30; source p. 247.
+- Sphinx, Androsphinx: HD 9 to 12; HDE 11; XP 1,700; source p. 248.
+- Sphinx, Criosphinx: HD 10 to 12; HDE 12; XP 2,000; source p. 248.
+- Sphinx, Gynosphinx: HD 8 to 11; HDE 10; XP 1,400; source p. 248.
+- Sphinx, Hieracosphinx: HD 9 to 11; HDE 11; XP 1,700; source p. 249.
+- Spider, Giant Bola: HD 4; HDE 5; XP 240; source p. 249.
+- Spider, Giant Diving Bell: HD 4; HDE 5; XP 240; source p. 250.
+- Spider, Giant Ice: HD 6; HDE 7; XP 600; source p. 250.
+- Spider, Giant Shrieking Tarantula: HD 7 No of Attacks: 1 bite; HDE 8; XP 800; source p. 250.
+- Spider, Giant Trapdoor: HD 4; HDE 5; XP 240; source p. 251.
+- Spider, Giant Water: HD 3+3 No of Attacks: 1 bite; HDE 4; XP 120; source p. 251.
+- Spider, Giant Wolf: HD 9; HDE 10; XP 1,400; source p. 251.
+- Spider, Humming: HD 1; HDE 2; XP 30; source p. 252.
+- Spider, Phase: HD 9+1; HDE 9; XP 1,100; source p. 252.
+- Spider, Steel: HD 5; HDE 7; XP 600; source p. 252.
+- Spider, Time: HD 4; HDE 6; XP 400; source p. 253.
+- Spirit of Vengeance: HD 10; HDE 12; XP 2,000; source p. 253.
+- Strix: HD 1+1; HDE 3; XP 60; source p. 254.
+- Suiko: HD 6; HDE 6; XP 400; source p. 163.
+- Sun’s Child: HD 10; HDE 11; XP 1,700; source p. 254.
+- Swamp Monster: HD 5; HDE 6; XP 400; source p. 255.
+- Swanmay (and Black Swanmay): HD 4; HDE 5; XP 240; source p. 255.
+- Sylph: HD 3; HDE 5; XP 240; source p. 256.
+- Syring: HD 3; HDE 4; XP 120; source p. 256.
+- Syring Juggernaut: HD 12; HDE 13; XP 2,300; source p. 256.
+- Tapper: HD 3; HDE 3; XP 60; source p. 257.
+- Telethia: HD 7; HDE 9; XP 1,100; source p. 257.
+- Tendriculos: HD 9; HDE 10; XP 1,400; source p. 258.
+- Tentacled Horror: HD 10+20; HDE 11; XP 1,700; source p. 258.
+- Tentacled Shroom (or Tentacle Fungi): HD 6; HDE 6; XP 400; source p. 258.
+- Terror Bird: HD 3; HDE 3; XP 60; source p. 259.
+- Thulid: HD 1 to 8 (1 to 8 if a Magic-user); HDE 7; XP 600; source p. 259.
+- Thulid, Great Brain: HD 9 No of Attacks: Special; HDE 11; XP 1,700; source p. 261.
+- Thunderbird: HD 5; HDE 6; XP 400; source p. 261.
+- Tick, Giant: HD 1; HDE 2; XP 30; source p. 262.
+- Tiger: HD 6; HDE 6; XP 400; source p. 263.
+- Timber Wolf: HD 18; HDE 19; XP 4,100; source p. 263.
+- Tommyknocker: HD 2; HDE 2; XP 30; source p. 263.
+- Torok: HD 2; HDE 2; XP 30; source p. 264.
+- Trachodon): HD 12; HDE 12; XP 2,000; source p. 75.
+- Trapper: HD 9 to 12; HDE 11; XP 1,700; source p. 265.
+- Treant, Apple: HD 8; HDE 9; XP 1,100; source p. 265.
+- Treant, Undead: HD 10; HDE 10; XP 1,400; source p. 266.
+- Tree-Fox: HD 1; HDE 1; XP 15; source p. 266.
+- Trelanx: HD 4; HDE 4; XP 120; source p. 266.
+- Triton: HD 5 to 7; HDE 5; XP 240; source p. 267.
+- Trobold: HD ½; HDE 3; XP 60; source p. 267.
+- Troll, Marsh: HD 7; HDE 8; XP 800; source p. 268.
+- Troll, Moon: HD 12; HDE 14; XP 2,600; source p. 268.
+- Troll, Night: HD 8; HDE 9; XP 1,100; source p. 269.
+- Troll, Rock: HD 8; HDE 9; XP 1,100; source p. 269.
+- Turtle, Giant Sea: HD 15; HDE 15; XP 2,900; source p. 270.
+- Turtle, Giant Snapping: HD 10; HDE 10; XP 1,400; source p. 270.
+- Tusker (Eyvique): HD 2+2; HDE 2; XP 30; source p. 271.
+- Twilight Hound: HD 5 to 9; HDE 7; XP 600; source p. 271.
+- Tymera: HD 11; HDE 13; XP 2,300; source p. 271.
+- Tyrannobeak: HD 18; HDE 18; XP 3,800; source p. 272.
+- Uhul: HD 3; HDE 4; XP 120; source p. 272.
+- Ursavis: HD 8; HDE 9; XP 1,100; source p. 273.
+- Ushac: HD 1-1; HDE 2; XP 30; source p. 273.
+- Vermen: HD 1+1 No of Attacks: 1 bite or 1 weapon; HDE 1; XP 15; source p. 274.
+- Vermin Queen: HD 6; HDE 8; XP 800; source p. 274.
+- Vihm (Ratling): HD ½; HDE <1; XP 10; source p. 275.
+- Violet Fungus: HD 2; HDE 3; XP 60; source p. 275.
+- Wanstrow: HD 4 (+9 see below); HDE 4; XP 120; source p. 275.
+- Wasp, Giant: HD 4+1; HDE 5; XP 240; source p. 276.
+- Water Leaper: HD 5; HDE 6; XP 400; source p. 276.
+- Water Weird: HD HD 3+3; HDE 5; XP 240; source p. 276.
+- Wayai Otter: HD 8; HDE 8; XP 800; source p. 277.
+- Whippersnapper: HD 2+1; HDE 2; XP 30; source p. 277.
+- Wick Warden: HD 4; HDE 4; XP 120; source p. 277.
+- Will-o’-Wisp: HD 9; HDE 11; XP 1,700; source p. 278.
+- Wind Walker: HD 6+3; HDE 8; XP 800; source p. 278.
+- Winged Devourer: HD 6 Attacks: 1 bite or 2 talons, special attack; HDE 6 or 2; XP 400/30; source p. 278.
+- Wolf, Winter: HD 6; HDE 7; XP 600; source p. 279.
+- Wolf (Winter & Worg) (Worg): HD 3; HDE 3; XP 60; source p. 279.
+- Wolf, Wind: HD 8; HDE 9; XP 1,100; source p. 279.
+- Wolpertinger: HD 2; HDE 2; XP 30; source p. 280.
+- Wolverine (Giant): HD 4; HDE 4; XP 120; source p. 280.
+- Wolverine (Normal): HD 3; HDE 3; XP 60; source p. 280.
+- Wondrous Guardian Automaton: HD 4; HDE 5; XP 240; source p. 280.
+- Worm Man: HD 3; HDE 5; XP 240; source p. 281.
+- Wretchling: HD 5; HDE 6; XP 400; source p. 282.
+- Wug: HD 1; HDE 1; XP 15; source p. 283.
+- Xorn: HD 7+1; HDE 9; XP 1,100; source p. 283.
+- Yeti: HD 4+4; HDE 5; XP 240; source p. 284.
+- Yowie: HD 6+2; HDE 7; XP 600; source p. 284.
+- Zexhund: HD 2; HDE 2; XP 30; source p. 285.
+- Zombie Horse: HD 3; HDE 4; XP 120; source p. 285.
+- Zombie, Flesh Eater: HD 2; HDE 2; XP 30; source p. 285.
+- Zombie, Hexcore: HD 3; HDE 4; XP 120; source p. 286.
+- Zombie, Leper: HD 1; HDE 2; XP 30; source p. 286.
+- Zoog: HD ½; HDE <1; XP 10; source p. 286.
+
+Site packaging note:
+- Removed the redundant All Monsters page (`monsters/all.html`) and Complete Text page (`full-text.html`), and removed navigation/footer links to them.
+
+Follow-up cleanup pass:
+- Converted attack damage entries using dice smaller than d6 were normalized toward 1d6-1, with medium dice normalized toward 1d6, 1d6+1, or 1d6+2, and very large attacks retained as Xd6 where appropriate.
+- Redundant Hit Dice Equivalent and Experience Points rows were removed from monster stat blocks, leaving the combined HDE/XP row.
+- Collapsible Basic Fantasy source-stat details were removed from converted creature pages, and Creative Commons source notes were moved to the bottom of those pages.

@@ -1,0 +1,39 @@
+Monster subcategory mechanics audit
+===================================
+
+Scope
+-----
+Audited the 10 retained monster subcategory pages against their current member monster entries. The individual monster entries are treated as source of truth for mechanics.
+
+Files updated
+-------------
+- monsters/subcategories/bear-basic-fantasy-rpg.html
+  Removed duplicate/outdated universal bear text and clarified that hug triggers, death-round behavior, curses, immunities, regeneration, and other special cases vary by entry.
+- monsters/subcategories/demon-white-box.html
+  Added member-accurate mechanics for Balor, Imp, Lemure, and Succubus.
+- monsters/subcategories/dracomander-field-guide-omnibus.html
+  Reframed mechanics around current White Box conversion: dragon age rule, 3/day breath, elemental aura, elemental immunity, and magic weapons to hit.
+- monsters/subcategories/dragon-white-box.html
+  Updated general dragon rules and breath table so converted variants such as cave, cloud, death, plains, and sea dragons are covered without overriding their individual pages.
+- monsters/subcategories/eel-field-guide-omnibus.html
+  Removed common/electric eel category text not represented by current members and replaced it with giant eel and weed eel mechanics.
+- monsters/subcategories/golem-white-box.html
+  Removed overbroad universal golem claims and summarized current per-entry variation in weapon requirements, spell interactions, berserk rules, grapples, breath weapons, and vulnerabilities.
+- monsters/subcategories/human-white-box.html
+  Clarified that entries are NPC/monster samples and called out berserker and sergeant mechanics.
+- monsters/subcategories/living-statue-basic-fantasy-rpg.html
+  Added member-specific crystal, iron, and stone statue mechanics.
+- monsters/subcategories/lycanthrope-white-box.html
+  Removed the old universal lycanthropy/infection framing and noted that transmission and weapon immunity vary by entry.
+- monsters/subcategories/shrew-basic-fantasy-rpg.html
+  Corrected the outdated two-bites-per-round statement to the current natural 19–20 second-bite rule.
+
+Files deleted
+-------------
+Deleted every unused monster subcategory HTML file other than the 10 retained pages and index.html. This removed 82 unused category pages from monsters/subcategories/.
+
+Validation notes
+----------------
+- The subcategory index already linked only to the retained 10 pages.
+- Monster pages currently link only to retained subcategory pages or the subcategory index.
+- Local HTML href validation was run after deletion; no broken local hrefs were found, including no broken subcategory links.

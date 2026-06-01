@@ -1,0 +1,108 @@
+Monster subcategory fold report
+==============================
+
+
+Cleanup pass completed in this revision
+---------------------------------------
+All unused monster subcategory pages have been physically deleted from monsters/subcategories/. The only remaining subcategory pages are the 10 retained rule-bearing pages listed below plus index.html. Those 10 pages were also audited against their current member monster entries and updated so category-level mechanics no longer override or contradict member mechanics.
+
+Retained rule-bearing category pages: 10
+  - bear-basic-fantasy-rpg.html: Bear
+  - demon-white-box.html: Demon (White Box)
+  - dracomander-field-guide-omnibus.html: Dracomander (Basic Fantasy Field Guide Omnibus)
+  - dragon-white-box.html: Dragon (White Box)
+  - eel-field-guide-omnibus.html: Eel (Basic Fantasy Field Guide Omnibus)
+  - golem-white-box.html: Golem (White Box)
+  - human-white-box.html: Human (White Box)
+  - living-statue-basic-fantasy-rpg.html: Living Statue (Basic Fantasy RPG)
+  - lycanthrope-white-box.html: Lycanthrope (White Box)
+  - shrew-basic-fantasy-rpg.html: Shrew (Basic Fantasy RPG)
+
+Removed active category pages: 66
+  - advi-field-guide-omnibus.html: Advi (Basic Fantasy Field Guide Omnibus)
+  - ankheg-field-guide-omnibus.html: Ankheg (Basic Fantasy Field Guide Omnibus)
+  - ant-basic-fantasy-rpg.html: Ant (Basic Fantasy RPG)
+  - ape-field-guide-omnibus.html: Ape (Basic Fantasy Field Guide Omnibus)
+  - bagobone-field-guide-omnibus.html: Bagobone (Basic Fantasy Field Guide Omnibus)
+  - basilisk-basic-fantasy-rpg.html: Basilisk (Basic Fantasy RPG)
+  - beetle-basic-fantasy-rpg.html: Beetle
+  - blade-spirit-field-guide-omnibus.html: Blade Spirit (Basic Fantasy Field Guide Omnibus)
+  - blood-rose-basic-fantasy-rpg.html: Blood Rose (Basic Fantasy RPG)
+  - boar-field-guide-omnibus.html: Boar (Basic Fantasy Field Guide Omnibus)
+  - bone-horror-field-guide-omnibus.html: Bone Horror (Basic Fantasy Field Guide Omnibus)
+  - celestial-field-guide-omnibus.html: Celestial (Basic Fantasy Field Guide Omnibus)
+  - centipede-white-box.html: Centipede (White Box)
+  - cockroach-field-guide-omnibus.html: Cockroach (Basic Fantasy Field Guide Omnibus)
+  - crocodile-basic-fantasy-rpg.html: Crocodile (Basic Fantasy RPG)
+  - cu-sidhe-field-guide-omnibus.html: Cu-Sidhe (Basic Fantasy Field Guide Omnibus)
+  - deep-one-field-guide-omnibus.html: Deep One (Basic Fantasy Field Guide Omnibus)
+  - dinosaur-basic-fantasy-rpg.html: Dinosaur
+  - elemental-white-box.html: Elemental (White Box)
+  - elephant-basic-fantasy-rpg.html: Elephant (Basic Fantasy RPG)
+  - elf-bugs-field-guide-omnibus.html: Elf Bugs (Basic Fantasy Field Guide Omnibus)
+  - eurypterid-field-guide-omnibus.html: Eurypterid (Basic Fantasy Field Guide Omnibus)
+  - fairy-field-guide-omnibus.html: Fairy (Basic Fantasy Field Guide Omnibus)
+  - fish-basic-fantasy-rpg.html: Fish
+  - frog-field-guide-omnibus.html: Frog (Basic Fantasy Field Guide Omnibus)
+  - fungi-field-guide-omnibus.html: Fungi (Basic Fantasy Field Guide Omnibus)
+  - geminate-serpent-field-guide-omnibus.html: Geminate Serpent (Basic Fantasy Field Guide Omnibus)
+  - giant-white-box.html: Giant (White Box)
+  - grave-sentinel-field-guide-omnibus.html: Grave Sentinel (Basic Fantasy Field Guide Omnibus)
+  - griffon-field-guide-omnibus.html: Griffon (Basic Fantasy Field Guide Omnibus)
+  - horse-basic-fantasy-rpg.html: Horse (Basic Fantasy RPG)
+  - infected-field-guide-omnibus.html: Infected (Basic Fantasy Field Guide Omnibus)
+  - demon-field-guide-omnibus.html: Infernal (Basic Fantasy Field Guide Omnibus)
+  - insect-swarm-basic-fantasy-rpg.html: Insect Swarm (Basic Fantasy RPG)
+  - lamprey-field-guide-omnibus.html: Lamprey (Basic Fantasy Field Guide Omnibus)
+  - lizard-basic-fantasy-rpg.html: Lizard
+  - mold-field-guide-omnibus.html: Mold (Basic Fantasy Field Guide Omnibus)
+  - naga-field-guide-omnibus.html: Naga (Basic Fantasy Field Guide Omnibus)
+  - nazgorean-field-guide-omnibus.html: Nazgorean (Basic Fantasy Field Guide Omnibus)
+  - oculus-rex-field-guide-omnibus.html: Oculus Rex (Basic Fantasy Field Guide Omnibus)
+  - ogre-field-guide-omnibus.html: Ogre (Basic Fantasy Field Guide Omnibus)
+  - otter-field-guide-omnibus.html: Otter (Basic Fantasy Field Guide Omnibus)
+  - ram-field-guide-omnibus.html: Ram (Basic Fantasy Field Guide Omnibus)
+  - ray-field-guide-omnibus.html: Ray (Basic Fantasy Field Guide Omnibus)
+  - rhinoceros-basic-fantasy-rpg.html: Rhinoceros (Basic Fantasy RPG)
+  - salamander-basic-fantasy-rpg.html: Salamander (Basic Fantasy RPG)
+  - scarecrow-field-guide-omnibus.html: Scarecrow (Basic Fantasy Field Guide Omnibus)
+  - serpent-men-field-guide-omnibus.html: Serpent Men (Basic Fantasy Field Guide Omnibus)
+  - shambler-field-guide-omnibus.html: Shambler (Basic Fantasy Field Guide Omnibus)
+  - shark-basic-fantasy-rpg.html: Shark (Basic Fantasy RPG)
+  - skeleton-field-guide-omnibus.html: Skeleton (Basic Fantasy Field Guide Omnibus)
+  - slime-field-guide-omnibus.html: Slime (Basic Fantasy Field Guide Omnibus)
+  - snail-field-guide-omnibus.html: Snail (Basic Fantasy Field Guide Omnibus)
+  - snake-basic-fantasy-rpg.html: Snake
+  - sphinx-field-guide-omnibus.html: Sphinx (Basic Fantasy Field Guide Omnibus)
+  - spider-basic-fantasy-rpg.html: Spider
+  - squid-basic-fantasy-rpg.html: Squid (Basic Fantasy RPG)
+  - treant-field-guide-omnibus.html: Treant (Basic Fantasy Field Guide Omnibus)
+  - troll-field-guide-omnibus.html: Troll (Basic Fantasy Field Guide Omnibus)
+  - trollkin-basic-fantasy-rpg.html: Trollkin (Basic Fantasy RPG)
+  - turtle-field-guide-omnibus.html: Turtle (Basic Fantasy Field Guide Omnibus)
+  - water-termite-giant-basic-fantasy-rpg.html: Water Termite, Giant (Basic Fantasy RPG)
+  - whale-basic-fantasy-rpg.html: Whale (Basic Fantasy RPG)
+  - wolf-winter-and-worg-field-guide-omnibus.html: Wolf (Winter & Worg) (Basic Fantasy Field Guide Omnibus)
+  - wolverine-field-guide-omnibus.html: Wolverine (Basic Fantasy Field Guide Omnibus)
+  - zombie-field-guide-omnibus.html: Zombie (Basic Fantasy Field Guide Omnibus)
+
+Removed redirect stubs: 10
+  - beetle-field-guide-omnibus.html
+  - dinosaur-field-guide-omnibus.html
+  - elemental-basic-fantasy-rpg.html
+  - elemental-field-guide-omnibus.html
+  - fish-field-guide-omnibus.html
+  - giant-basic-fantasy-rpg.html
+  - giant-field-guide-omnibus.html
+  - lizard-field-guide-omnibus.html
+  - snake-field-guide-omnibus.html
+  - spider-field-guide-omnibus.html
+
+Updated monster pages: 335
+Removed deleted-subcategory links from monster pages: 333
+Pages receiving newly inserted category text: 39
+Pages receiving See Also sections: 335
+
+Post-fix validation
+-------------------
+Broken HTML hrefs to removed subcategory files: 0

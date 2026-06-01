@@ -1,0 +1,41 @@
+White Box dragon hyperlink pass for chapters 1-9
+Targets:
+- generic dragon references -> ../monsters/subcategories/dragon-white-box.html
+- Black Dragon / Dragon, Black -> ../monsters/dragon-black.html
+- Blue Dragon / Dragon, Blue -> ../monsters/dragon-blue.html
+- Gold Dragon / Dragon, Gold -> ../monsters/dragon-gold.html
+- Green Dragon / Dragon, Green -> ../monsters/dragon-green.html
+- Red Dragon / Dragon, Red -> ../monsters/dragon-red.html
+- White Dragon / Dragon, White -> ../monsters/dragon-white.html
+
+Changes by chapter:
+
+chapter-5-playing-the-game.html: 7 links added
+  - dragon -> ../monsters/subcategories/dragon-white-box.html
+  - dragon -> ../monsters/subcategories/dragon-white-box.html
+  - dragon -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon Breath -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon Breath -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon Breath -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon Breath -> ../monsters/subcategories/dragon-white-box.html
+
+chapter-7-running-the-game.html: 10 links added
+  - Dragon, young -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon, adult -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon, luck -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon -> ../monsters/subcategories/dragon-white-box.html
+
+chapter-9-treasure.html: 4 links added
+  - Dragon Control -> ../monsters/subcategories/dragon-white-box.html
+  - Dragon Control -> ../monsters/subcategories/dragon-white-box.html
+  - dragons -> ../monsters/subcategories/dragon-white-box.html
+  - dragons -> ../monsters/subcategories/dragon-white-box.html
+
+Local link validation:
+No broken local links found.

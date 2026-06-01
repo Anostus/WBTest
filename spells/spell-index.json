@@ -1,0 +1,1166 @@
+[
+  {
+    "name": "Alter Time",
+    "slug": "alter-time",
+    "level": "M3",
+    "range": "240 ft.",
+    "duration": "30 min.",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Animal Growth",
+    "slug": "animal-growth",
+    "level": "M5",
+    "range": "120 ft.",
+    "duration": "2 hours",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Animate Dead",
+    "slug": "animate-dead",
+    "level": "M5",
+    "range": "Referee’s discretion",
+    "duration": "Permanent",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Anti-Magic Shell",
+    "slug": "anti-magic-shell",
+    "level": "M6",
+    "range": "Caster",
+    "duration": "2 hours",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Bless (Curse)",
+    "slug": "bless-curse",
+    "level": "C2",
+    "range": "Target PC or NPC (out-ofcombat)",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Charm Monster",
+    "slug": "charm-monster",
+    "level": "M4",
+    "range": "60 ft.",
+    "duration": "Until dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Charm Person",
+    "slug": "charm-person",
+    "level": "M1",
+    "range": "120 ft.",
+    "duration": "Until dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Cloudkill",
+    "slug": "cloudkill",
+    "level": "M5",
+    "range": "Close",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Commune",
+    "slug": "commune",
+    "level": "C5",
+    "range": "Caster",
+    "duration": "3 questions",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Confusion",
+    "slug": "confusion",
+    "level": "M4",
+    "range": "120 ft.",
+    "duration": "2 hours",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Conjure Elemental",
+    "slug": "conjure-elemental",
+    "level": "M5",
+    "range": "240 ft.",
+    "duration": "Until dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Contact Other Plane",
+    "slug": "contact-other-plane",
+    "level": "M5",
+    "range": "None",
+    "duration": "See table",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Control Weather",
+    "slug": "control-weather",
+    "level": "M6",
+    "range": "Referee’s discretion",
+    "duration": "Referee’s discretion",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Create Food and Drink",
+    "slug": "create-food-and-drink",
+    "level": "C5",
+    "range": "Close",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Crystal Ball",
+    "slug": "crystal-ball",
+    "level": "M3",
+    "range": "60 ft.",
+    "duration": "2 hours",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Cure (Cause) Disease",
+    "slug": "cure-cause-disease",
+    "level": "C3",
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Cure (Cause) Light Wounds",
+    "slug": "cure-cause-light-wounds",
+    "level": "C1",
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Cure (Cause) Serious Wounds",
+    "slug": "cure-cause-serious-wounds",
+    "level": "C4",
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Darkvision",
+    "slug": "darkvision",
+    "level": "M3",
+    "range": "Touch",
+    "duration": "1 day",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Death Spell",
+    "slug": "death-spell",
+    "level": "M6",
+    "range": "240 ft.",
+    "duration": "Permanent",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Detect Chaos (Law)",
+    "slug": "detect-chaos-law",
+    "level": "C1, M2",
+    "range": "120 ft. (C), 60 ft. (M)",
+    "duration": "1 hour (C), 20 min. (M)",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 1
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Detect Invisibility",
+    "slug": "detect-invisibility",
+    "level": "M2",
+    "range": "10 ft./caster level",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Detect Magic",
+    "slug": "detect-magic",
+    "level": "C1, M1",
+    "range": "60 ft.",
+    "duration": "20 min.",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 1
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Detect Thoughts (ESP)",
+    "slug": "detect-thoughts-esp",
+    "level": "M2",
+    "range": "60 ft.",
+    "duration": "2 hours",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Dimensional Portal",
+    "slug": "dimensional-portal",
+    "level": "M4",
+    "range": "10 ft. casting, 360 ft. teleport",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Disintegrate",
+    "slug": "disintegrate",
+    "level": "M6",
+    "range": "60 ft.",
+    "duration": "Permanent",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Dispel Chaos (Law)",
+    "slug": "dispel-chaos-law",
+    "level": "C5",
+    "range": "30 ft.",
+    "duration": "10 minutes",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Dispel Magic",
+    "slug": "dispel-magic",
+    "level": "M3",
+    "range": "120 ft.",
+    "duration": "10 min.",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Feeblemind",
+    "slug": "feeblemind",
+    "level": "M5",
+    "range": "240 ft.",
+    "duration": "Permanent until dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Find Traps",
+    "slug": "find-traps",
+    "level": "C2",
+    "range": "30 ft.",
+    "duration": "20 min.",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Fireball",
+    "slug": "fireball",
+    "level": "M3",
+    "range": "240 ft.",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Fly",
+    "slug": "fly",
+    "level": "M3",
+    "range": "Touch",
+    "duration": "1d6 turns + 1 turn/level",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Hallucinatory Terrain",
+    "slug": "hallucinatory-terrain",
+    "level": "M4",
+    "range": "240 ft.",
+    "duration": "Until touched by an enemy or dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Hold Monster",
+    "slug": "hold-monster",
+    "level": "M5",
+    "range": "120 ft.",
+    "duration": "1 hour + 10 minutes per level",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Hold Person",
+    "slug": "hold-person",
+    "level": "C2, M3",
+    "range": "180 ft. (C), 120 ft. (M)",
+    "duration": "90 min. (C), 1 hour + 10 minutes per level (M)",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 2
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Hold Portal",
+    "slug": "hold-portal",
+    "level": "M1",
+    "range": "Referee’s discretion",
+    "duration": "2d6 turns",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Insect Plague",
+    "slug": "insect-plague",
+    "level": "C5",
+    "range": "480 ft.",
+    "duration": "1 day",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Invisibility",
+    "slug": "invisibility",
+    "level": "M2",
+    "range": "240 ft.",
+    "duration": "Until dispelled or an attack is made",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Invisibility, 10 ft. radius",
+    "slug": "invisibility-10-ft-radius",
+    "level": "240 ft.",
+    "range": "",
+    "duration": "Until dispelled or an attack is made",
+    "classes": []
+  },
+  {
+    "name": "Invisible Stalker",
+    "slug": "invisible-stalker",
+    "level": "M6",
+    "range": "Near Caster",
+    "duration": "Until mission is completed",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Knock",
+    "slug": "knock",
+    "level": "M2",
+    "range": "60 ft.",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Levitate",
+    "slug": "levitate",
+    "level": "M2",
+    "range": "20 ft. per level",
+    "duration": "10 minutes per level",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Light (Dark)",
+    "slug": "light-dark",
+    "level": "C1, M1",
+    "range": "120 ft.",
+    "duration": "2 hours (C), 1 hour + 10 minutes per level (M)",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 1
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Light (Dark), Continual",
+    "slug": "light-dark-continual",
+    "level": "C3, M2",
+    "range": "120 ft.",
+    "duration": "Permanent until dispelled",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 3
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Lightning Bolt",
+    "slug": "lightning-bolt",
+    "level": "M3",
+    "range": "60 ft.",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Locate Object",
+    "slug": "locate-object",
+    "level": "C3, M2",
+    "range": "90 ft. (C), 60 ft. + 10 ft. per level (M)",
+    "duration": "1 minutes per level",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 3
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Magic Jar",
+    "slug": "magic-jar",
+    "level": "M5",
+    "range": "See below",
+    "duration": "See below",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Massmorph",
+    "slug": "massmorph",
+    "level": "M4",
+    "range": "240 ft.",
+    "duration": "Until negated or dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Move Earth",
+    "slug": "move-earth",
+    "level": "M6",
+    "range": "240 ft.",
+    "duration": "Permanent",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Move Water",
+    "slug": "move-water",
+    "level": "M6",
+    "range": "240 ft.",
+    "duration": "See below",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Neutralize Poison",
+    "slug": "neutralize-poison",
+    "level": "C4",
+    "range": "Referee’s discretion",
+    "duration": "10 min.",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Passwall",
+    "slug": "passwall",
+    "level": "M5",
+    "range": "30 ft.",
+    "duration": "30 min.",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Phantasmal Force",
+    "slug": "phantasmal-force",
+    "level": "M2",
+    "range": "240 ft.",
+    "duration": "Until negated or dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Plant Growth",
+    "slug": "plant-growth",
+    "level": "M4",
+    "range": "120 ft.",
+    "duration": "Permanent until dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Polymorph",
+    "slug": "polymorph",
+    "level": "M4",
+    "range": "See below",
+    "duration": "See below",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Project Image",
+    "slug": "project-image",
+    "level": "M6",
+    "range": "240 ft.",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Protection from Chaos (Law)",
+    "slug": "protection-from-chaos-law",
+    "level": "C1, M1",
+    "range": "Caster only",
+    "duration": "2 hours (C), 1 hour (M)",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 1
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Protection from Chaos (Law), 10 ft. radius",
+    "slug": "protection-from-chaos-law-10-ft-radius",
+    "level": "C4, M3",
+    "range": "10 ft. radius around caster",
+    "duration": "2 hours",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 4
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Protection from Normal Missiles",
+    "slug": "protection-from-normal-missiles",
+    "level": "M3",
+    "range": "30 ft.",
+    "duration": "2 hours",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Purify (Putrefy) Food and Drink",
+    "slug": "purify-putrefy-food-and-drink",
+    "level": "C1",
+    "range": "Close/Touch",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Quest",
+    "slug": "quest",
+    "level": "C5, M6",
+    "range": "30 ft.",
+    "duration": "Until completed",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 5
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Raise Dead",
+    "slug": "raise-dead",
+    "level": "C5",
+    "range": "Line of sight",
+    "duration": "See below",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Read Languages",
+    "slug": "read-languages",
+    "level": "M1",
+    "range": "Reading distance",
+    "duration": "1 or 2 readings",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Read Magic",
+    "slug": "read-magic",
+    "level": "M1",
+    "range": "Caster only",
+    "duration": "2 scrolls or other writings",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Reincarnation",
+    "slug": "reincarnation",
+    "level": "M6",
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Remove Curse",
+    "slug": "remove-curse",
+    "level": "C3, M4",
+    "range": "Close/Touch",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 3
+      },
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Sleep",
+    "slug": "sleep",
+    "level": "M1",
+    "range": "240 ft.",
+    "duration": "Referee’s discretion",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Speak with Animals",
+    "slug": "speak-with-animals",
+    "level": "C2",
+    "range": "30 ft.",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Speak with Plants",
+    "slug": "speak-with-plants",
+    "level": "C4",
+    "range": "30 ft.",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Sticks to Snakes",
+    "slug": "sticks-to-snakes",
+    "level": "C4",
+    "range": "120 ft.",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Cleric",
+        "abbr": "C",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Telekinesis",
+    "slug": "telekinesis",
+    "level": "M5",
+    "range": "120 ft.",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Teleport",
+    "slug": "teleport",
+    "level": "M5",
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Transform Rock-Mud",
+    "slug": "transform-rock-mud",
+    "level": "M5",
+    "range": "120 ft.",
+    "duration": "3d6 days, or spell reversal",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Transform Stone-Flesh",
+    "slug": "transform-stone-flesh",
+    "level": "M6",
+    "range": "120 ft.",
+    "duration": "Permanent until reversed",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Wall of Fire or Ice",
+    "slug": "wall-of-fire-or-ice",
+    "level": "M4",
+    "range": "60 ft.",
+    "duration": "Concentration",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Wall of Stone or Iron",
+    "slug": "wall-of-stone-or-iron",
+    "level": "M5",
+    "range": "60 ft.",
+    "duration": "Permanent (stone) or 2 hours (iron)",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "name": "Water Breathing",
+    "slug": "water-breathing",
+    "level": "M3",
+    "range": "30 ft.",
+    "duration": "2 hours",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "Web",
+    "slug": "web",
+    "level": "M2",
+    "range": "30 ft.",
+    "duration": "8 hours",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "name": "Wizard Eye",
+    "slug": "wizard-eye",
+    "level": "M4",
+    "range": "240 ft.",
+    "duration": "1 hour",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "name": "Wizard Lock",
+    "slug": "wizard-lock",
+    "level": "M2",
+    "range": "Close",
+    "duration": "Permanent until dispelled",
+    "classes": [
+      {
+        "class": "Magic-User",
+        "abbr": "M",
+        "level": 2
+      }
+    ]
+  }
+]

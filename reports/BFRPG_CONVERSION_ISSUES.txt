@@ -1,0 +1,306 @@
+BFRPG to White Box monster conversion notes
+Generated for the White Box SRD site update. Updated to split multi-monster entries into individual pages.
+
+Converted entries added: 189.
+The source used was Basic Fantasy Role-Playing Game, 4th Edition Release 142, © 2006–2025 Chris Gonnerman, CC BY-SA 4.0. Converted creature pages contain the same source note.
+
+General conversion decisions:
+- Ascending AC was converted as BFRPG AC - 1, then shown in the White Box descending/ascending format (for example, BFRPG AC 14 becomes 6 [13]).
+- Hit Dice were preserved, but asterisks were treated as additional HDE steps. For fractional-HD creatures with an asterisk, I rounded the resulting fractional HDE up to the next whole HDE.
+- Multiple-attack routines were compressed to one White Box-style attack, generally 1d6 damage, adjusted upward or downward for very large, very small, or especially dangerous creatures.
+- BFRPG entries that presented separate variants in one table have now been split into individual White Box pages and individual index rows. Index/table names use a dagger (†) rather than “(BFRPG)”; the footnote explains that those entries are converted creatures.
+- Existing White Box monsters with obvious close equivalents were not duplicated unless the BFRPG entry contained a missing variant or a major power difference. Examples imported despite overlap include Basilisk variants, Blink Dog/Flicker Beast, Ghast, normal rats, Trollwife, and Alicorn.
+
+Specific conversion issues and judgment calls:
+- Color dragons already present in White Box were not duplicated. BFRPG-only dragon types such as Cloud, Plains/Yellow, Sea/Gray, and Dragon Turtle were converted. Dragon age categories and breath details are condensed; the original BFRPG source statistics remain in the details element on each page.
+- Elementals already present in White Box (air, earth, fire, water) were skipped. BFRPG-only elemental types (cold, lightning, metal, wood) were added and their staff/device/spell variants were split into separate pages.
+- Golems already present in White Box were skipped unless BFRPG supplied a clearly missing type (amber, bone, bronze, clay). Bonus attack values or parenthetical attack bonuses in BFRPG stat lines were not counted as Hit Dice.
+- Several animal and prehistoric animal entries have multiple listed attacks in BFRPG; these were compressed heavily, so damage is intentionally more White Box-like than Basic Fantasy-like.
+- Plant, vermin, swarm, disease, and parasite monsters such as rot grubs, molds, insect swarms, blood roses, strangle vines, and tentacle worms require referee judgment because their threat is mostly special effects rather than damage. Their HDE may understate or overstate danger depending on party resources.
+- Variable-range entries such as Blood Rose, Insect Swarm, Trollkin, and Giant Water Termite were split into representative HD-specific pages to remove semicolon-separated statistics from the indexes.
+- Creatures skipped as obvious equivalents or alias references include many core humanoids, undead, dragons, and classic monsters already present in the White Box SRD. See the list below.
+
+Converted entries:
+- Alicorn: HD 4; HDE 5; XP 240.
+- Ant, Giant: HD 4; HDE 4; XP 120.
+- Ant, Huge: HD 2; HDE 2; XP 30.
+- Ant, Large: HD 1; HDE 1; XP 15.
+- Antelope: HD 2; HDE 2; XP 30.
+- Ape, Carnivorous: HD 4; HDE 4; XP 120.
+- Aurochs: HD 3; HDE 3; XP 60.
+- Barkling: HD ½; HDE <1; XP 10.
+- Basilisk, Common: HD 6; HDE 8; XP 800.
+- Basilisk, Great: HD 8; HDE 11; XP 1,700.
+- Bat: HD 1 hp; HDE <1; XP 10.
+- Bat, Giant: HD 2; HDE 2; XP 30.
+- Bear, Black: HD 4; HDE 4; XP 120.
+- Bear, Cave: HD 7; HDE 7; XP 600.
+- Bear, Grizzly (or Brown): HD 5; HDE 5; XP 240.
+- Bear, Polar: HD 6; HDE 6; XP 400.
+- Bee, Giant: HD ½; HDE 2; XP 30.
+- Beetle, Giant Bombardier: HD 2; HDE 3; XP 60.
+- Beetle, Giant Oil: HD 2; HDE 3; XP 60.
+- Beetle, Giant Tiger: HD 3+1; HDE 3; XP 60.
+- Bison: HD 4; HDE 4; XP 120.
+- Blink Dog (Flicker Beast): HD 4; HDE 5; XP 240.
+- Blood Rose, 2 HD: HD 2; HDE 3; XP 60.
+- Blood Rose, 3 HD: HD 3; HDE 4; XP 120.
+- Blood Rose, 4 HD: HD 4; HDE 5; XP 240.
+- Boar: HD 3; HDE 3; XP 60.
+- Box Turtle: HD ½; HDE <1; XP 10.
+- Caecilia, Giant: HD 6; HDE 7; XP 600.
+- Camel: HD 2; HDE 2; XP 30.
+- Cattle: HD 2+2; HDE 2; XP 30.
+- Cave Locust, Giant: HD 2; HDE 4; XP 120.
+- Cheetah: HD 2; HDE 2; XP 30.
+- Crab, Giant: HD 3; HDE 3; XP 60.
+- Crocodile: HD 2; HDE 2; XP 30.
+- Crocodile, Giant: HD 15; HDE 15; XP 2,900.
+- Crocodile, Large: HD 6; HDE 6; XP 400.
+- Deceiver: HD 6; HDE 7; XP 600.
+- Deceiver, Greater: HD 7; HDE 9; XP 1,100.
+- Deer: HD 1; HDE 1; XP 15.
+- Dinosaur, Deinonychus: HD 3; HDE 3; XP 60.
+- Dinosaur, Pteranodon: HD 5; HDE 5; XP 240.
+- Dinosaur, Pterodactyl: HD 1; HDE 1; XP 15.
+- Dinosaur, Stegosaurus: HD 11; HDE 11; XP 1,700.
+- Dinosaur, Triceratops: HD 11; HDE 11; XP 1,700.
+- Dinosaur, Tyrannosaurus Rex: HD 18; HDE 18; XP 3,800.
+- Dog: HD 1+1; HDE 1; XP 15.
+- Dog, Riding: HD 2; HDE 2; XP 30.
+- Donkey: HD 2; HDE 2; XP 30.
+- Dragon Turtle: HD 30; HDE 32; XP 9,000.
+- Dragon, Cloud: HD 11; HDE 13; XP 2,300.
+- Dragon, Plains (Yellow Dragon): HD 5; HDE 7; XP 600.
+- Dragon, Sea (Gray Dragon): HD 8; HDE 10; XP 1,400.
+- Eagle: HD 2; HDE 2; XP 30.
+- Eagle, Giant: HD 4; HDE 4; XP 120.
+- Elemental, Cold (Device): HD 12; HDE 13; XP 2,300.
+- Elemental, Cold (Spell): HD 16; HDE 17; XP 3,500.
+- Elemental, Cold (Staff): HD 8; HDE 9; XP 1,100.
+- Elemental, Lightning (Device): HD 12; HDE 13; XP 2,300.
+- Elemental, Lightning (Spell): HD 16; HDE 17; XP 3,500.
+- Elemental, Lightning (Staff): HD 8; HDE 9; XP 1,100.
+- Elemental, Metal (Device): HD 12; HDE 13; XP 2,300.
+- Elemental, Metal (Spell): HD 16; HDE 17; XP 3,500.
+- Elemental, Metal (Staff): HD 8; HDE 9; XP 1,100.
+- Elemental, Wood (Device): HD 12; HDE 13; XP 2,300.
+- Elemental, Wood (Spell): HD 16; HDE 17; XP 3,500.
+- Elemental, Wood (Staff): HD 8; HDE 9; XP 1,100.
+- Elephant, African: HD 10; HDE 10; XP 1,400.
+- Elephant, Asiatic: HD 9; HDE 9; XP 1,100.
+- Elk: HD 3; HDE 3; XP 60.
+- Emu: HD 2; HDE 2; XP 30.
+- Falcon: HD ½; HDE <1; XP 10.
+- Fish, Giant Barracuda: HD 9; HDE 9; XP 1,100.
+- Fish, Giant Bass: HD 2; HDE 2; XP 30.
+- Fish, Giant Catfish: HD 8; HDE 8; XP 800.
+- Fish, Giant Piranha: HD 4; HDE 4; XP 120.
+- Fish, Huge Barracuda: HD 5; HDE 5; XP 240.
+- Fly, Giant: HD 2; HDE 2; XP 30.
+- Frog, Giant (and Toad, Giant): HD 2; HDE 2; XP 30.
+- Ghast: HD 2; HDE 4; XP 120.
+- Ghost: HD 10; HDE 11; XP 1,700.
+- Ghoul: HD 2; HDE 3; XP 60.
+- Giant, Cyclops: HD 13; HDE 14; XP 2,600.
+- Giant, Mountain: HD 16; HDE 16; XP 3,200.
+- Golem, Amber: HD 10; HDE 11; XP 1,700.
+- Golem, Bone: HD 8; HDE 9; XP 1,100.
+- Golem, Bronze: HD 20; HDE 22; XP 5,000.
+- Golem, Clay: HD 11; HDE 13; XP 2,300.
+- Hangman Tree: HD 5; HDE 5; XP 240.
+- Hawk: HD ½; HDE <1; XP 10.
+- Hawk, Giant: HD 4; HDE 4; XP 120.
+- Horse, Draft: HD 3; HDE 3; XP 60.
+- Horse, Riding: HD 2; HDE 2; XP 30.
+- Horse, War: HD 3; HDE 3; XP 60.
+- Hyena: HD 2+1; HDE 2; XP 30.
+- Hyenodon: HD 3+1; HDE 3; XP 60.
+- Insect Swarm, 2 HD: HD 2; HDE 3; XP 60.
+- Insect Swarm, 3 HD: HD 3; HDE 4; XP 120.
+- Insect Swarm, 4 HD: HD 4; HDE 5; XP 240.
+- Ironbane: HD 3; HDE 4; XP 120.
+- Jaguar: HD 4; HDE 4; XP 120.
+- Jelly, Green (Green Slime): HD 2; HDE 4; XP 120.
+- Leech, Giant: HD 6; HDE 6; XP 400.
+- Leopard (Panther): HD 4; HDE 4; XP 120.
+- Lion: HD 5; HDE 5; XP 240.
+- Living Statue, Crystal: HD 3; HDE 3; XP 60.
+- Living Statue, Iron: HD 4; HDE 5; XP 240.
+- Living Statue, Stone: HD 5; HDE 6; XP 400.
+- Lizard, Giant Draco: HD 4+2; HDE 4; XP 120.
+- Lizard, Giant Gecko: HD 3+1; HDE 3; XP 60.
+- Lizard, Giant Horned Chameleon: HD 5; HDE 5; XP 240.
+- Lizard, Giant Tuatara: HD 6; HDE 6; XP 400.
+- Lizard, Monitor, Giant: HD 7; HDE 8; XP 800.
+- Lizard, Monitor, Huge: HD 5; HDE 6; XP 400.
+- Lizard, Monitor, Large: HD 3; HDE 4; XP 120.
+- Lycanthrope, Wereboar: HD 4; HDE 5; XP 240.
+- Lycanthrope, Weretiger: HD 5; HDE 6; XP 400.
+- Mammoth: HD 15; HDE 15; XP 2,900.
+- Mastodon: HD 13; HDE 13; XP 2,300.
+- Mermaid: HD 1; HDE 2; XP 30.
+- Moose: HD 4; HDE 4; XP 120.
+- Mountain Lion: HD 3+2; HDE 3; XP 60.
+- Mule: HD 2; HDE 2; XP 30.
+- Nixie: HD 1; HDE 2; XP 30.
+- Octopus, Giant: HD 8; HDE 8; XP 800.
+- Ostrich: HD 3; HDE 3; XP 60.
+- Owl: HD 1; HDE 1; XP 15.
+- Owlbear: HD 5; HDE 5; XP 240.
+- Parrot (or Cockatoo): HD ½; HDE <1; XP 10.
+- Pixie: HD 1; HDE 2; XP 30.
+- Pony: HD 1; HDE 1; XP 15.
+- Rat: HD 1 hp; HDE <1; XP 10.
+- Rat, Giant: HD ½; HDE <1; XP 10.
+- Rhagodessa, Giant: HD 4; HDE 4; XP 120.
+- Rhinoceros, Black: HD 8; HDE 8; XP 800.
+- Rhinoceros, Woolly: HD 12; HDE 12; XP 2,000.
+- Rock Baboon: HD 2; HDE 2; XP 30.
+- Rot Grub: HD 1 hp; HDE <1; XP 10.
+- Rust Monster: HD 5; HDE 6; XP 400.
+- Sabre-Tooth Cat: HD 8; HDE 8; XP 800.
+- Salamander, Flame: HD 8; HDE 9; XP 1,100.
+- Salamander, Frost: HD 12; HDE 13; XP 2,300.
+- Salamander, Lightning: HD 10; HDE 11; XP 1,700.
+- Salamander, Sand: HD 7; HDE 8; XP 800.
+- Scorpion, Giant: HD 4; HDE 5; XP 240.
+- Shark, Bull: HD 2; HDE 2; XP 30.
+- Shark, Great White: HD 8; HDE 8; XP 800.
+- Shark, Mako: HD 4; HDE 4; XP 120.
+- Shrew, Giant: HD 1; HDE 1; XP 15.
+- Shrew, Giant Venomous: HD 1; HDE 2; XP 30.
+- Shrieker (Wailing Morel): HD 3; HDE 3; XP 60.
+- Skeletaire: HD 1; HDE 2; XP 30.
+- Snake, Pit Viper: HD 1; HDE 2; XP 30.
+- Snake, Pit Viper, Giant: HD 2; HDE 3; XP 60.
+- Snake, Python: HD 5; HDE 6; XP 400.
+- Snake, Sea: HD 3; HDE 4; XP 120.
+- Snake, Spitting Cobra: HD 1; HDE 2; XP 30.
+- Snapping Turtle: HD 1; HDE 1; XP 15.
+- Spider, Giant Black Widow: HD 3; HDE 4; XP 120.
+- Spider, Giant Crab: HD 2; HDE 3; XP 60.
+- Spider, Giant Tarantula: HD 4; HDE 5; XP 240.
+- Sprite: HD ½; HDE 2; XP 30.
+- Squid, Giant (Female): HD 7; HDE 7; XP 600.
+- Squid, Giant (Male): HD 6; HDE 6; XP 400.
+- Strangle Vine: HD 6; HDE 6; XP 400.
+- Tentacle Worm: HD 3; HDE 4; XP 120.
+- Tiger: HD 6; HDE 6; XP 400.
+- Titanothere: HD 12; HDE 12; XP 2,000.
+- Troll: HD 6; HDE 7; XP 600.
+- Trollkin, Adolescent (5 HD): HD 5; HDE 6; XP 400.
+- Trollkin, Adolescent (6 HD): HD 6; HDE 7; XP 600.
+- Trollkin, Infant (1 HD): HD 1; HDE 2; XP 30.
+- Trollkin, Infant (2 HD): HD 2; HDE 3; XP 60.
+- Trollkin, Juvenile (3 HD): HD 3; HDE 4; XP 120.
+- Trollkin, Juvenile (4 HD): HD 4; HDE 5; XP 240.
+- Trollwife: HD 7; HDE 8; XP 800.
+- Unicorn: HD 4; HDE 5; XP 240.
+- Urgoblin: HD 2; HDE 3; XP 60.
+- Water Termite, Giant (1 HD): HD 1; HDE 1; XP 15.
+- Water Termite, Giant (2 HD): HD 2; HDE 2; XP 30.
+- Water Termite, Giant (3 HD): HD 3; HDE 3; XP 60.
+- Water Termite, Giant (4 HD): HD 4; HDE 4; XP 120.
+- Weasel: HD 1 hp; HDE <1; XP 10.
+- Weasel, Giant (or Ferret): HD 5; HDE 5; XP 240.
+- Whale, Killer: HD 6; HDE 6; XP 400.
+- Whale, Narwhal: HD 12; HDE 12; XP 2,000.
+- Whale, Sperm: HD 36; HDE 37; XP 10,500.
+- Wolf: HD 2; HDE 2; XP 30.
+- Wolf, Dire: HD 4; HDE 4; XP 120.
+- Zombraire: HD 2; HDE 3; XP 60.
+
+Skipped entries / reason:
+- Assassin Vine: alias/see reference or no stat block.
+- Aurochs: alias/see reference or no stat block.
+- Bear: overview text only.
+- Beetle, Giant Fire: obvious White Box equivalent already present.
+- Bison: alias/see reference or no stat block.
+- Black Pudding: alias/see reference or no stat block.
+- Bugbear: obvious White Box equivalent already present.
+- Centaur: obvious White Box equivalent already present.
+- Centipede, Giant: obvious White Box equivalent already present.
+- Chimera: obvious White Box equivalent already present.
+- Cockatrice: obvious White Box equivalent already present.
+- Deer: alias/see reference or no stat block.
+- Djinni: obvious White Box equivalent already present.
+- Doppleganger: obvious White Box equivalent already present.
+- Dragon: overview text only.
+- Dragon, Desert (Blue Dragon): obvious White Box equivalent already present.
+- Dragon, Forest (Green Dragon): obvious White Box equivalent already present.
+- Dragon, Ice (White Dragon): obvious White Box equivalent already present.
+- Dragon, Mountain (Red Dragon): obvious White Box equivalent already present.
+- Dragon, Swamp (Black Dragon): obvious White Box equivalent already present.
+- Dryad: obvious White Box equivalent already present.
+- Efreeti: obvious White Box equivalent already present.
+- Elemental: overview text only.
+- Elemental, Air: obvious White Box equivalent already present.
+- Elemental, Earth: obvious White Box equivalent already present.
+- Elemental, Fire: obvious White Box equivalent already present.
+- Elemental, Water: obvious White Box equivalent already present.
+- Elk: alias/see reference or no stat block.
+- Gargoyle: obvious White Box equivalent already present.
+- Gelatinous Cube: alias/see reference or no stat block.
+- Ghast: alias/see reference or no stat block.
+- Giant, Cloud: obvious White Box equivalent already present.
+- Giant, Fire: obvious White Box equivalent already present.
+- Giant, Frost: obvious White Box equivalent already present.
+- Giant, Hill: obvious White Box equivalent already present.
+- Giant, Stone: obvious White Box equivalent already present.
+- Giant, Storm: obvious White Box equivalent already present.
+- Gnoll: obvious White Box equivalent already present.
+- Gnome: obvious White Box equivalent already present.
+- Goblin: obvious White Box equivalent already present.
+- Golem: overview text only.
+- Golem, Flesh: obvious White Box equivalent already present.
+- Golem, Iron: obvious White Box equivalent already present.
+- Golem, Stone: obvious White Box equivalent already present.
+- Golem, Wood: obvious White Box equivalent already present.
+- Gorgon: obvious White Box equivalent already present.
+- Gray Ooze: alias/see reference or no stat block.
+- Green Slime: alias/see reference or no stat block.
+- Griffon: obvious White Box equivalent already present.
+- Harpy: obvious White Box equivalent already present.
+- Hellhound: obvious White Box equivalent already present.
+- Hippogriff: obvious White Box equivalent already present.
+- Hobgoblin: obvious White Box equivalent already present.
+- Hydra: obvious White Box equivalent already present.
+- Invisible Stalker: obvious White Box equivalent already present.
+- Jelly: overview text only.
+- Jelly, Black (Black Pudding): obvious White Box equivalent already present.
+- Jelly, Glass (Gelatinous Cube): obvious White Box equivalent already present.
+- Jelly, Gray (Gray Ooze): obvious White Box equivalent already present.
+- Jelly, Ochre: obvious White Box equivalent already present.
+- Kobold: obvious White Box equivalent already present.
+- Living Statue: alias/see reference or no stat block.
+- Lizard Man: obvious White Box equivalent already present.
+- Lycanthrope: overview text only.
+- Lycanthrope, Werebear: obvious White Box equivalent already present.
+- Lycanthrope, Wererat: obvious White Box equivalent already present.
+- Lycanthrope, Werewolf: obvious White Box equivalent already present.
+- Manticore: obvious White Box equivalent already present.
+- Medusa: obvious White Box equivalent already present.
+- Minotaur: obvious White Box equivalent already present.
+- Moose: alias/see reference or no stat block.
+- Mummy: obvious White Box equivalent already present.
+- Ochre Jelly: alias/see reference or no stat block.
+- Ogre: obvious White Box equivalent already present.
+- Orc: obvious White Box equivalent already present.
+- Pegasus: obvious White Box equivalent already present.
+- Purple Worm: obvious White Box equivalent already present.
+- Roc: obvious White Box equivalent already present.
+- Salamander: overview text only.
+- Sea Serpent: obvious White Box equivalent already present.
+- Shadow: obvious White Box equivalent already present.
+- Skeleton: obvious White Box equivalent already present.
+- Spectre: obvious White Box equivalent already present.
+- Stirge: obvious White Box equivalent already present.
+- Treant: obvious White Box equivalent already present.
+- Troglodyte: alias/see reference or no stat block.
+- Vampire: obvious White Box equivalent already present.
+- Wight: obvious White Box equivalent already present.
+- Wraith: obvious White Box equivalent already present.
+- Wyvern: obvious White Box equivalent already present.
+- Yellow Mold: obvious White Box equivalent already present.
+- Zombie: obvious White Box equivalent already present.

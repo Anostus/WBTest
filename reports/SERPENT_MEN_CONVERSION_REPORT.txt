@@ -1,0 +1,16 @@
+Serpent Men Conversion Update
+
+Added two new White Box conversions from The Basic Fantasy Field Guide Omnibus:
+- Serpent Men -> monsters/serpent-men-bfomnibus.html
+- Serpent Men, Greater -> monsters/serpent-men-greater-bfomnibus.html
+
+Conversion rules applied:
+- BFRPG AC 16 -> White Box AC 4 [15]; BFRPG AC 17 -> White Box AC 3 [16].
+- Hit Dice retained; two asterisks added +2 to HDE.
+- Attack routines simplified to one White Box attack.
+
+Updated:
+- Monster Index
+- Monster search JSON
+- Monster Subcategories Index
+- Iconic Monster Substitutions page, Y-t. row

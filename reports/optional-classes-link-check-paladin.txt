@@ -1,0 +1,1 @@
+Passed: no missing local links found in classes/optional-classes.html after the Paladin spell progression update.

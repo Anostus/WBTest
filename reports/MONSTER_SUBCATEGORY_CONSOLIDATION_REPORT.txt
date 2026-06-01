@@ -1,0 +1,89 @@
+Monster Subcategory Consolidation Report
+========================================
+
+Consolidated duplicate source-specific monster subcategories, updated monster-page subcategory links, and rebuilt the subcategory index to point at canonical pages.
+
+Bear
+  Canonical page: monsters/subcategories/bear-basic-fantasy-rpg.html
+  Folded in: bear-basic-fantasy-rpg.html, bear-field-guide-omnibus.html
+  Redirect stubs left for: bear-field-guide-omnibus.html
+  Total members: 12
+  Members by original source: Basic Fantasy Field Guide Omnibus: 8, Basic Fantasy RPG: 4
+
+Beetle
+  Canonical page: monsters/subcategories/beetle-basic-fantasy-rpg.html
+  Folded in: beetle-basic-fantasy-rpg.html, beetle-field-guide-omnibus.html
+  Redirect stubs left for: beetle-field-guide-omnibus.html
+  Total members: 7
+  Members by original source: Basic Fantasy Field Guide Omnibus: 4, Basic Fantasy RPG: 3
+
+Dinosaur
+  Canonical page: monsters/subcategories/dinosaur-basic-fantasy-rpg.html
+  Folded in: dinosaur-basic-fantasy-rpg.html, dinosaur-field-guide-omnibus.html
+  Redirect stubs left for: dinosaur-field-guide-omnibus.html
+  Total members: 29
+  Members by original source: Basic Fantasy Field Guide Omnibus: 23, Basic Fantasy RPG: 6
+
+Dragon (White Box)
+  Canonical page: monsters/subcategories/dragon-white-box.html
+  Folded in: dragon-basic-fantasy-rpg.html, dragon-field-guide-omnibus.html, dragon-white-box.html
+  Redirect stubs left for: dragon-basic-fantasy-rpg.html, dragon-field-guide-omnibus.html
+  Total members: 11
+  Members by original source: Basic Fantasy Field Guide Omnibus: 2, Basic Fantasy RPG: 3, White Box: 6
+
+Elemental (White Box)
+  Canonical page: monsters/subcategories/elemental-white-box.html
+  Folded in: elemental-basic-fantasy-rpg.html, elemental-field-guide-omnibus.html, elemental-white-box.html
+  Redirect stubs left for: elemental-basic-fantasy-rpg.html, elemental-field-guide-omnibus.html
+  Total members: 19
+  Members by original source: Basic Fantasy Field Guide Omnibus: 3, Basic Fantasy RPG: 12, White Box: 4
+
+Fish
+  Canonical page: monsters/subcategories/fish-basic-fantasy-rpg.html
+  Folded in: fish-basic-fantasy-rpg.html, fish-field-guide-omnibus.html
+  Redirect stubs left for: fish-field-guide-omnibus.html
+  Total members: 11
+  Members by original source: Basic Fantasy Field Guide Omnibus: 6, Basic Fantasy RPG: 5
+
+Giant (White Box)
+  Canonical page: monsters/subcategories/giant-white-box.html
+  Folded in: giant-basic-fantasy-rpg.html, giant-field-guide-omnibus.html, giant-white-box.html
+  Redirect stubs left for: giant-basic-fantasy-rpg.html, giant-field-guide-omnibus.html
+  Total members: 13
+  Members by original source: Basic Fantasy Field Guide Omnibus: 4, Basic Fantasy RPG: 2, White Box: 7
+
+Golem (White Box)
+  Canonical page: monsters/subcategories/golem-white-box.html
+  Folded in: golem-basic-fantasy-rpg.html, golem-field-guide-omnibus.html, golem-white-box.html
+  Redirect stubs left for: golem-basic-fantasy-rpg.html, golem-field-guide-omnibus.html
+  Total members: 20
+  Members by original source: Basic Fantasy Field Guide Omnibus: 11, Basic Fantasy RPG: 4, White Box: 5
+
+Lizard
+  Canonical page: monsters/subcategories/lizard-basic-fantasy-rpg.html
+  Folded in: lizard-basic-fantasy-rpg.html, lizard-field-guide-omnibus.html
+  Redirect stubs left for: lizard-field-guide-omnibus.html
+  Total members: 11
+  Members by original source: Basic Fantasy Field Guide Omnibus: 4, Basic Fantasy RPG: 7
+
+Lycanthrope (White Box)
+  Canonical page: monsters/subcategories/lycanthrope-white-box.html
+  Folded in: lycanthrope-basic-fantasy-rpg.html, lycanthrope-white-box.html
+  Redirect stubs left for: lycanthrope-basic-fantasy-rpg.html
+  Total members: 5
+  Members by original source: Basic Fantasy RPG: 2, White Box: 3
+
+Snake
+  Canonical page: monsters/subcategories/snake-basic-fantasy-rpg.html
+  Folded in: snake-basic-fantasy-rpg.html, snake-field-guide-omnibus.html
+  Redirect stubs left for: snake-field-guide-omnibus.html
+  Total members: 13
+  Members by original source: Basic Fantasy Field Guide Omnibus: 8, Basic Fantasy RPG: 5
+
+Spider
+  Canonical page: monsters/subcategories/spider-basic-fantasy-rpg.html
+  Folded in: spider-basic-fantasy-rpg.html, spider-field-guide-omnibus.html
+  Redirect stubs left for: spider-field-guide-omnibus.html
+  Total members: 14
+  Members by original source: Basic Fantasy Field Guide Omnibus: 11, Basic Fantasy RPG: 3
+

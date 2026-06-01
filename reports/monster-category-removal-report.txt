@@ -1,0 +1,39 @@
+Monster category removal and link cleanup
+=========================================
+
+Summary
+-------
+This pass deletes the monster subcategory layer entirely and migrates the final shared rules/descriptive text into the relevant individual monster entries.
+
+Changes made
+------------
+- Deleted monsters/subcategories/ and all remaining subcategory pages, including the subcategory index.
+- Removed Monster Subcategories from site navigation and body copy.
+- Migrated the former Bear, Demon, Dracomander, Dragon, Eel, Golem, Human, Living Statue, Lycanthrope, and Shrew category notes into their individual member pages before the source note/footer.
+- Added the Dragon Rules block, including dragon age and breath weapon tables, to every dragon entry.
+- Added the Dragon Rules block to every dracomander entry as well.
+- Added/updated See Also sections for every member of the former Bear, Demon/Demon, Dracomander, Dragon, Eel, Golem, Human, Living Statue, Lycanthrope, and Shrew groups.
+- Treated Demon and Infernal as a single See Also group, with an explicit note that demons and infernals are equivalent lower-planar creatures in this SRD.
+- Deleted the redundant Field Guide infernal duplicate pages:
+  - demon-balor-bfomnibus.html
+  - demon-succubus-bfomnibus.html
+  - demon-lemure-bfomnibus.html
+  - demon-imp-bfomnibus.html
+- Removed the alternate-version notes from the White Box Demon pages that pointed to those deleted infernal duplicates.
+- Deleted these additional redundant monster pages:
+  - violet-fungus-bfomnibus.html
+  - mold-deadly-yellow-bfomnibus.html
+  - blink-dog-bfrpg.html
+- Renamed the 36 HD Field Guide Kraken conversion to Kraken, Greater and renamed its file to kraken-greater-bfomnibus.html.
+- Updated monster-index JSON, monster index HTML, iconic substitution links, alternate-version links, and all affected local hrefs.
+- Replaced lingering generic links to the deleted Dragon subcategory page with plain Dragon text where the rulebook was using “dragon” as a saving throw/encounter/potion category rather than pointing to a specific monster.
+
+Validation
+----------
+- Monster HTML entries: 935
+- monster-index.json entries: 935
+- JSON slugs missing HTML files: 0
+- Monster HTML files missing JSON index entries: 0
+- Local HTML link validation: 0 broken local links
+- Pages with migrated category notes: 66
+- Pages with See Also sections: 396

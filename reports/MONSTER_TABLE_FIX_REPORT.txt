@@ -1,0 +1,45 @@
+Monster table and dX roll chart formatting pass
+================================================
+
+Total monster pages fixed: 39
+Total fixes recorded: 39
+
+- Bestomper (bestomper-bfomnibus.html): Converted collapsed 1d10 energy-beam chart into a three-column HTML table.
+- Black Knight (black-knight-bfomnibus.html): Converted collapsed 1d6 magic sword chart into a proper HTML table with note.
+- Cow Dragon (cow-dragon-bfomnibus.html): Converted collapsed 1d6 cow-dragon cheese effects into a two-column HTML table.
+- Deep Spore (deep-spore-bfomnibus.html): Converted collapsed 1d8 stimulus and 1d20 explosion charts into formatted HTML tables.
+- Doppelganger (doppelganger.html): Removed stray merged dragon rules text and collapsed dragon tables from the Doppelganger description; the dragon rules are kept on the Dragon subcategory page.
+- Dracomander, Flame (dracomander-flame-bfomnibus.html): Converted collapsed age/stat table “Flame Dracomander Age Table” into a multi-column HTML table.
+- Dracomander, Frost (dracomander-frost-bfomnibus.html): Converted collapsed age/stat table “Frost Dracomander Age Table” into a multi-column HTML table.
+- Dracomander, Lightning (dracomander-lightning-bfomnibus.html): Converted collapsed age/stat table “Lightning Dracomander Age Table” into a multi-column HTML table.
+- Dragon Turtle (dragon-turtle-bfrpg.html): Converted collapsed age/stat table “Dragon Turtle Age Table” into a multi-column HTML table.
+- Dragon, Cave (dragon-cave-bfomnibus.html): Converted collapsed age/stat table “Cave Dragon Age Table” into a multi-column HTML table.
+- Dragon, Cloud (dragon-cloud-bfrpg.html): Converted collapsed age/stat table “Cloud Dragon Age Table” into a multi-column HTML table.
+- Dragon, Plains (Yellow Dragon) (dragon-plains-bfrpg.html): Converted collapsed age/stat table “Plains Dragon Age Table” into a multi-column HTML table.
+- Dragon, Sea (Gray Dragon) (dragon-sea-bfrpg.html): Converted collapsed age/stat table “Sea Dragon Age Table” into a multi-column HTML table.
+- Gaze Guard (gaze-guard-bfomnibus.html): Converted collapsed gaze ray roll chart into a three-column HTML table.
+- Geminate Serpent, Blue (geminate-serpent-blue-bfomnibus.html): Converted collapsed age/stat table “Blue Geminate Serpent Age Table” into a multi-column HTML table.
+- Geminate Serpent, Bone (geminate-serpent-bone-bfomnibus.html): Converted collapsed age/stat table “Bone Geminate Serpent Age Table” into a multi-column HTML table.
+- Geminate Serpent, Green (geminate-serpent-green-bfomnibus.html): Converted collapsed age/stat table “Green Geminate Serpent Age Table” into a multi-column HTML table.
+- Geminate Serpent, Pleasant (geminate-serpent-pleasant-bfomnibus.html): Converted collapsed age/stat table “Pleasant Geminate Serpent Age Table” into a multi-column HTML table.
+- Geminate Serpent, Sea (geminate-serpent-sea-bfomnibus.html): Converted collapsed age/stat table “Sea Geminate Serpent Age Table” into a multi-column HTML table.
+- Geminate Serpent, Shadow (geminate-serpent-shadow-bfomnibus.html): Converted collapsed age/stat table “Shadow Geminate Serpent Age Table” into a multi-column HTML table.
+- Geminate Serpent, White (geminate-serpent-white-bfomnibus.html): Converted collapsed age/stat table “White Geminate Serpent Age Table” into a multi-column HTML table.
+- Great Orb of Eyes (great-orb-of-eyes-bfomnibus.html): Split prose from collapsed ray chart and converted the 1–10 ray list into a table.
+- Hag (hag-bfomnibus.html): Converted collapsed 1d6 special ability effects into a two-column HTML table.
+- Demon, Balor (demon-balor-bfomnibus.html): Converted inline 1d% summoning results into a formatted table.
+- Demon, Glabrezu (demon-glabrezu-bfomnibus.html): Converted inline 1d% summoning results into a formatted table.
+- Demon, Nalfeshni (demon-nalfeshni-bfomnibus.html): Converted inline 1d% summoning results into a formatted table.
+- Demon, Night Hag (demon-night-hag-bfomnibus.html): Converted inline 1d% summoning results into a formatted table.
+- Demon, Succubus (demon-succubus-bfomnibus.html): Converted inline 1d% summoning results into a formatted table.
+- Living Darkness (living-darkness-bfomnibus.html): Converted inline 1d6 random ability list into a small HTML table.
+- Lotl (lotl-bfomnibus.html): Converted collapsed 1d8 reaction chart into an HTML table; preserved only the listed results.
+- Nazgorean, Octospider (nazgorean-octospider-bfomnibus.html): Converted collapsed caustic spray and poison penalty charts into HTML tables.
+- Oculus Rex, Common (oculus-rex-common-bfomnibus.html): Converted collapsed eye-power list into a formatted HTML table.
+- Oculus Rex, Emperor (oculus-rex-emperor-bfomnibus.html): Converted collapsed eye-power list into a formatted HTML table.
+- Oculus Vigilans (oculus-vigilans-bfomnibus.html): Converted collapsed eye-power list into a formatted HTML table.
+- Pangotherium (pangotherium-bfomnibus.html): Converted inline 3d6 reaction chart into a two-column HTML table.
+- Rot Vulture (rot-vulture-bfomnibus.html): Split prose from collapsed 1d6 special ability list and converted the list into a table.
+- Skeleton, Diseased (skeleton-diseased-bfomnibus.html): Converted collapsed 1d8 color/effect chart into a three-column HTML table with note.
+- Snake, Rainbow (snake-rainbow-bfomnibus.html): Split prose from collapsed 1d8 ray-color chart and converted it into a four-column HTML table.
+- Spirit of Vengeance (spirit-of-vengeance-bfomnibus.html): Converted collapsed 1d10 weapon chart into a two-column HTML table.
